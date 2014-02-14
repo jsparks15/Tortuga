@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1bca2b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1b5d530" />
+  <item nodeId="node-0x1bca2b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Tortuga
+An Interactive Fiction by Jacob Sparks
+Release 1 / Serial number 140214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Scallywag
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">NO</temporary>
+    <children>
+      <child nodeId="node-0x74a94f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74a94f0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b5d530" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b5d530">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>
