@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x977a160" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1886af0" />
+  <activeNode nodeId="node-0x977a160" />
   <item nodeId="node-0x977a160">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -17,83 +17,21 @@ Release 1 / Serial number 140219 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 Scallywag
 Me mighty ship, once the best in the world, now lay in pieces on this mysterious beach. As me glance west me can see the deep blue sea, and to me east I can see a beach. The beach that me seems to be marooned on. Maybe me should look belowdecks for some supplies
 
+You can see a Tattered Flag here.
+
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="15">NO</temporary>
+    <temporary score="25">NO</temporary>
     <children>
-      <child nodeId="node-0x9707b00" />
-      <child nodeId="node-0xb9847e0" />
-      <child nodeId="node-0x9771620" />
       <child nodeId="node-0x977a1b0" />
+      <child nodeId="node-0x18232a0" />
+      <child nodeId="node-0x9707b00" />
       <child nodeId="node-0xd9e61f0" />
+      <child nodeId="node-0x9771620" />
+      <child nodeId="node-0x9a73940" />
+      <child nodeId="node-0xb9847e0" />
     </children>
-  </item>
-  <item nodeId="node-0xd9e61f0">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">As good-looking as ever.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0x977a1b0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-    <children>
-      <child nodeId="node-0x977a200" />
-    </children>
-  </item>
-  <item nodeId="node-0x977a200">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">As good-looking as ever.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x9771620">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1beb330" />
-    </children>
-  </item>
-  <item nodeId="node-0x1beb330">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Scallywag
-Me mighty ship, once the best in the world, now lay in pieces on this mysterious beach. As me glance west me can see the deep blue sea, and to me east I can see a beach. The beach that me seems to be marooned on. Maybe me should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0xd7eeef0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd7eeef0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
   </item>
   <item nodeId="node-0xb9847e0">
     <command xml:space="preserve">w</command>
@@ -177,6 +115,111 @@ Beach
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
+  <item nodeId="node-0x9a73940">
+    <command xml:space="preserve">x flag</command>
+    <result xml:space="preserve">A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xd805a90" />
+      <child nodeId="node-0x14090650" />
+    </children>
+  </item>
+  <item nodeId="node-0x14090650">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x14083580" />
+    </children>
+  </item>
+  <item nodeId="node-0x14083580">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Tattered Flag
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0xd805a90">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Cargo Hold
+Once stocked full of rum and food and everything me could imagine. Now me ship is almost bare save for some miscellaneous things.
+
+You can see a Scraps of Wood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x180a940" />
+    </children>
+  </item>
+  <item nodeId="node-0x180a940">
+    <command xml:space="preserve">x wood</command>
+    <result xml:space="preserve">Originally part of the hull of the Scallywag, these pieces of wood may come in handy later.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x9771620">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beb330" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Scallywag
+Me mighty ship, once the best in the world, now lay in pieces on this mysterious beach. As me glance west me can see the deep blue sea, and to me east I can see a beach. The beach that me seems to be marooned on. Maybe me should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7eeef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7eeef0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xd9e61f0">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
   <item nodeId="node-0x9707b00">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
@@ -198,5 +241,39 @@ Cargo Hold
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x18232a0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Cargo Hold
+Once stocked full of rum and food and everything me could imagine. Now me ship is almost bare save for some miscellaneous things.
+
+You can see a Scraps of Wood and a Bottle of Rum (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x977a1b0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x977a200" />
+    </children>
+  </item>
+  <item nodeId="node-0x977a200">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
   </item>
 </Skein>
