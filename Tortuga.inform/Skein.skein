@@ -1,28 +1,44 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1bca2b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x977a160" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b5d530" />
-  <item nodeId="node-0x1bca2b0">
+  <activeNode nodeId="node-0x1886af0" />
+  <item nodeId="node-0x977a160">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
+You wake up on the deck of your ship. Your head is throbbing, slowly you begin to remember what happened. The storm, the waves, the reef. You are lucky you managed to survive. Your crew on the other hand, was not so fortunate. Marooned on an unknown island, you should try to find a way back home.
+
 Tortuga
 An Interactive Fiction by Jacob Sparks
-Release 1 / Serial number 140214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140219 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Scallywag
+Me mighty ship, once the best in the world, now lay in pieces on this mysterious beach. As me glance west me can see the deep blue sea, and to me east I can see a beach. The beach that me seems to be marooned on. Maybe me should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">NO</temporary>
+    <children>
+      <child nodeId="node-0x9707b00" />
+      <child nodeId="node-0xb9847e0" />
+      <child nodeId="node-0x9771620" />
+      <child nodeId="node-0x977a1b0" />
+      <child nodeId="node-0xd9e61f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd9e61f0">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">NO</temporary>
-    <children>
-      <child nodeId="node-0x74a94f0" />
-    </children>
+    <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x74a94f0">
+  <item nodeId="node-0x977a1b0">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -31,10 +47,10 @@ Scallywag
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x1b5d530" />
+      <child nodeId="node-0x977a200" />
     </children>
   </item>
-  <item nodeId="node-0x1b5d530">
+  <item nodeId="node-0x977a200">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -42,5 +58,145 @@ Scallywag
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x9771620">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beb330" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb330">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Scallywag
+Me mighty ship, once the best in the world, now lay in pieces on this mysterious beach. As me glance west me can see the deep blue sea, and to me east I can see a beach. The beach that me seems to be marooned on. Maybe me should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xd7eeef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd7eeef0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xb9847e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x9708240" />
+    </children>
+  </item>
+  <item nodeId="node-0x9708240">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x978ba80" />
+    </children>
+  </item>
+  <item nodeId="node-0x978ba80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a6b990" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a6b990">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xd8377a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd8377a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xd822680" />
+    </children>
+  </item>
+  <item nodeId="node-0xd822680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x1886af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1886af0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x9707b00">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Cargo Hold
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x97715c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x97715c0">
+    <command xml:space="preserve">penis</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
   </item>
 </Skein>
