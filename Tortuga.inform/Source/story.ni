@@ -46,11 +46,11 @@ The Scallywag is a room. "Once a mighty ship, the best in the world, now lay in 
 The sea is scenery in the Scallywag. "The brilliant blue ocean, it looks so calm and tranquil."
 
 [Objects in Scallywag]
-The Tattered Flag is an object. It is in the Scallywag. The description is "A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable."
+The Tattered Flag is an object. It is in the Scallywag. The description is "A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable. It looks like could become flammable if soaked in something..."
 Understand "flag" as the Tattered Flag.
 
 [Cargo Hold]
-The Cargo Hold is a room. It is below the Scallywag. The description is "Once stocked full of rum and food and everything me could imagine. Now me ship is almost bare save for some miscellaneous things."
+The Cargo Hold is a room. It is below the Scallywag. The description is "Once stocked full of rum and food and everything you could imagine. Now the ship is almost bare save for some miscellaneous things."
 [Objects in the Cargo Hold]
 The Scraps of Wood is an object. It is in the Cargo Hold. The description is "Originally part of the hull of the Scallywag, these pieces of wood may come in handy later."
 Understand "wood" as the Scraps of Wood.
@@ -59,6 +59,8 @@ Understand "bottle" as the Bottle of Rum.
 
 [The Beach]
 The Beach is a room. It is east of the Scallywag.
+[Sand and x sand reveals shell used to bribe witch lady]
+
 
 [Jungle Region]
 The Jungle is a room. 
@@ -68,12 +70,41 @@ The Jungle is east of the Beach. The Volcano is north of the Jungle. The Ruins i
 
 Gloomy Jungle is a region. The Jungle, The Volcano, and the Ruins are in Gloomy Jungle.
 
-Instead of going to Gloomy Jungle when the player does not carry the Lit Torch: say "It's a dark and spooky forest. Maybe you should bring some light."
+Instead of going to Gloomy Jungle when the player does not carry the Lit Torch: say "It's a dark and spooky jungle. Maybe you should bring some light."
 
+[Secret? Ocean Region]
+The Ocean is a room.
+The Underwater Cave is a room.
+The Ocean is west of the Scallywag. The Underwater Cave is below the Ocean.
+
+Water is a region. The Ocean and Underwater cave are in Water.
+[I need the pig stuff]
 
 
 [The Jungle]
 The Jungle is a room. It is east of the Beach.
 
 
+[The Volcano]
+The Fishbowl is an object. It is carried by Calypso. The description is "A large glass Fishbowl. It might be able to be used as a breathing apparatus."
+
+
+
+Calypso is a person in the Volcano. The description of Calypso is "A spooky looking witch lady, she looks startled as if she hasn't seen another person in forever. She is carrying a large weathered rucksack. [if the Fishbowl is carried by Calypso] 
+She is carrying a Fishbowl [end if]. Calypso looks [the mood of Calypso]."
+
+
+Instead of attacking Calypso: 
+say "She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears.."; 
+end the game saying "You are tragically never found nor rescued. That's what you get for messing with witch ladies."
+
+
+
+[The Ruins]
+
+
+[The Ocean]
+
+
+[The Underwater Cave]
 
