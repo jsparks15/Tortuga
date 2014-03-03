@@ -61,6 +61,7 @@ Understand "bottle" as the Bottle of Rum.
 The Beach is a room. It is east of the Scallywag.
 [Sand and x sand reveals shell used to bribe witch lady]
 
+The Magic Conch is an object. 
 
 [Jungle Region]
 The Jungle is a room. 
@@ -98,6 +99,17 @@ Instead of attacking Calypso:
 say "She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears.."; 
 end the game saying "You are tragically never found nor rescued. That's what you get for messing with witch ladies."
 
+Instead of asking Calypso for the Fishbowl:
+	if Calypso is angry:
+		say "Calypso glares at you angrily, 'You should give me something first!' she says.";
+	if Calypso is happy:
+		say "'This shell is very pretty, here take this fishbowl.";
+	move the Fishbowl to the player.
+
+Instead of giving the Magic Conch to Calypso:
+	move the Magic Conch to Calypso;
+	now Calypso is happy;
+	say "Calypso looks very happy"
 
 
 [The Ruins]
