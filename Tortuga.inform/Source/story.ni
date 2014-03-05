@@ -60,8 +60,17 @@ Understand "bottle" as the Bottle of Rum.
 [The Beach]
 The Beach is a room. It is east of the Scallywag.
 [Sand and x sand reveals shell used to bribe witch lady]
+The Sand is scenery in The Beach. The description is "It's sand. It has a silky feel to it and it's a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell..."
+The Magic Conch is an object. It is in Limbo.
+Understand "shell" as the Magic Conch.
+Understand "Conch" as Magic Conch
 
-The Magic Conch is an object. 
+The Shell is scenery in the Beach. "It's a brilliant blue conch shell, the way it shimmers makes it seem almost magical."
+
+Instead of taking the Shell:
+	move Magic Conch to player;
+	say "You walk over towards the shell. As you get closer you notice that it's a lot larger then initially expected. You pull it out of the sand to get a closer look. It's a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely."
+	
 
 [Jungle Region]
 The Jungle is a room. 
@@ -79,8 +88,8 @@ The Underwater Cave is a room.
 The Ocean is west of the Scallywag. The Underwater Cave is below the Ocean.
 
 Water is a region. The Ocean and Underwater cave are in Water.
-[I need the pig stuff]
 
+Instead of going to Water when the player does not carry the Fishbowl: say "It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet."
 
 [The Jungle]
 The Jungle is a room. It is east of the Beach.
@@ -93,7 +102,8 @@ The Fishbowl is an object. It is carried by Calypso. The description is "A large
 
 Calypso is a person in the Volcano. The description of Calypso is "A spooky looking witch lady, she looks startled as if she hasn't seen another person in forever. She is carrying a large weathered rucksack. [if the Fishbowl is carried by Calypso] 
 She is carrying a Fishbowl [end if]. Calypso looks [the mood of Calypso]."
-
+[Mood Stuffs]
+Mood is a kind of value. The moods are angry and happy. People have mood. The mood of Calypso is angry.
 
 Instead of attacking Calypso: 
 say "She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears.."; 
@@ -102,14 +112,11 @@ end the game saying "You are tragically never found nor rescued. That's what you
 Instead of asking Calypso for the Fishbowl:
 	if Calypso is angry:
 		say "Calypso glares at you angrily, 'You should give me something first!' she says.";
-	if Calypso is happy:
-		say "'This shell is very pretty, here take this fishbowl.";
-	move the Fishbowl to the player.
 
 Instead of giving the Magic Conch to Calypso:
 	move the Magic Conch to Calypso;
 	now Calypso is happy;
-	say "Calypso looks very happy"
+	say "'Oooh thanks! This is such a pretty conch. It'll fit nicely in my collection. Here take this Fishbowl.'"
 
 
 [The Ruins]

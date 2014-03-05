@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x9553cb0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x7207f80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x9553cb0" />
-  <item nodeId="node-0x9553cb0">
+  <activeNode nodeId="node-0x7207f80" />
+  <item nodeId="node-0x7207f80">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,7 +12,7 @@ You wake up on the deck of your ship. Your head is throbbing, slowly you begin t
 
 Tortuga
 An Interactive Fiction by Jacob Sparks
-Release 1 / Serial number 140227 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140305 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Scallywag
 Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
@@ -22,31 +22,31 @@ You can see a Tattered Flag here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">NO</temporary>
+    <temporary score="57">NO</temporary>
     <children>
-      <child nodeId="node-0x95062b0" />
-      <child nodeId="node-0x9506320" />
-      <child nodeId="node-0x9506400" />
-      <child nodeId="node-0x9506470" />
-      <child nodeId="node-0x95072f0" />
-      <child nodeId="node-0x9507520" />
-      <child nodeId="node-0x9507960" />
-      <child nodeId="node-0x9553d20" />
+      <child nodeId="node-0xd853140" />
+      <child nodeId="node-0xd8530d0" />
+      <child nodeId="node-0xd852ff0" />
+      <child nodeId="node-0xd852f80" />
+      <child nodeId="node-0xd852100" />
+      <child nodeId="node-0xd851ed0" />
+      <child nodeId="node-0xd851ab0" />
+      <child nodeId="node-0x72077d0" />
     </children>
   </item>
-  <item nodeId="node-0x9553d20">
+  <item nodeId="node-0x72077d0">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x9553d70" />
+      <child nodeId="node-0x7207820" />
     </children>
   </item>
-  <item nodeId="node-0x9553d70">
+  <item nodeId="node-0x7207820">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -56,14 +56,249 @@ You can see a Scraps of Wood and a Bottle of Rum here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x9507a70" />
-      <child nodeId="node-0x9553bb0" />
+      <child nodeId="node-0xd851960" />
+      <child nodeId="node-0xd87b100" />
+      <child nodeId="node-0x7207870" />
+      <child nodeId="node-0x72acd70" />
     </children>
   </item>
-  <item nodeId="node-0x9553bb0">
+  <item nodeId="node-0x72acd70">
+    <command xml:space="preserve">take wood</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xb902c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb902c90">
+    <command xml:space="preserve">take rum</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x72c4b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x72c4b10">
+    <command xml:space="preserve">combine rum with flag</command>
+    <result xml:space="preserve">You now have a Flammable Cloth.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd814650" />
+    </children>
+  </item>
+  <item nodeId="node-0xd814650">
+    <command xml:space="preserve">combine cloth with wood</command>
+    <result xml:space="preserve">You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xda1d550" />
+    </children>
+  </item>
+  <item nodeId="node-0xda1d550">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x18826b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18826b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x73ec310" />
+    </children>
+  </item>
+  <item nodeId="node-0x73ec310">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd8748a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd8748a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Magic Conch
+  a Lit Torch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6b0fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6b0fb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6a00a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6a00a0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd883520" />
+    </children>
+  </item>
+  <item nodeId="node-0xd883520">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bcbc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bcbc00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6cec40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6cec40">
+    <command xml:space="preserve">x calypso</command>
+    <result xml:space="preserve">A spooky looking witch lady, she looks startled as if she hasn&apos;t seen another person in forever. She is carrying a large weathered rucksack.  She is carrying a Fishbowl . Calypso looks angry.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd853f50" />
+    </children>
+  </item>
+  <item nodeId="node-0xd853f50">
+    <command xml:space="preserve">take fishbowl</command>
+    <result xml:space="preserve">That seems to belong to Calypso.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd856880" />
+    </children>
+  </item>
+  <item nodeId="node-0xd856880">
+    <command xml:space="preserve">ask calypso for fishbowl</command>
+    <result xml:space="preserve">Calypso glares at you angrily, &quot;You should give me something first!&quot; she says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd814270" />
+    </children>
+  </item>
+  <item nodeId="node-0xd814270">
+    <command xml:space="preserve">give magic conch to calypso</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x72b9220" />
+    </children>
+  </item>
+  <item nodeId="node-0x72b9220">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6ef380" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6ef380">
+    <command xml:space="preserve">x calypso</command>
+    <result xml:space="preserve">A spooky looking witch lady, she looks startled as if she hasn&apos;t seen another person in forever. She is carrying a large weathered rucksack. . Calypso looks happy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xda26fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xda26fb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Fishbowl
+  a Lit Torch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x7207870">
     <command xml:space="preserve">combine rum and flag</command>
     <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
@@ -72,10 +307,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9553c20" />
+      <child nodeId="node-0x7207b30" />
     </children>
   </item>
-  <item nodeId="node-0x9553c20">
+  <item nodeId="node-0x7207b30">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">(first taking the Bottle of Rum)
 You now have a Flammable Cloth.
@@ -85,10 +320,10 @@ You now have a Flammable Cloth.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9553f40" />
+      <child nodeId="node-0x7207ba0" />
     </children>
   </item>
-  <item nodeId="node-0x9553f40">
+  <item nodeId="node-0x7207ba0">
     <command xml:space="preserve">combine cloth with wood</command>
     <result xml:space="preserve">(first taking the Scraps of Wood)
 You now have a Lit Torch.
@@ -98,10 +333,10 @@ You now have a Lit Torch.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9553f90" />
+      <child nodeId="node-0x7207bf0" />
     </children>
   </item>
-  <item nodeId="node-0x9553f90">
+  <item nodeId="node-0x7207bf0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -112,10 +347,10 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507dc0" />
+      <child nodeId="node-0xd851640" />
     </children>
   </item>
-  <item nodeId="node-0x9507dc0">
+  <item nodeId="node-0xd851640">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -125,10 +360,10 @@ Beach
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507d70" />
+      <child nodeId="node-0xd851690" />
     </children>
   </item>
-  <item nodeId="node-0x9507d70">
+  <item nodeId="node-0xd851690">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -138,10 +373,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507d20" />
+      <child nodeId="node-0xd8516e0" />
     </children>
   </item>
-  <item nodeId="node-0x9507d20">
+  <item nodeId="node-0xd8516e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -150,10 +385,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507cb0" />
+      <child nodeId="node-0xd851750" />
     </children>
   </item>
-  <item nodeId="node-0x9507cb0">
+  <item nodeId="node-0xd851750">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Beach
@@ -163,10 +398,10 @@ Beach
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507c40" />
+      <child nodeId="node-0xd8517c0" />
     </children>
   </item>
-  <item nodeId="node-0x9507c40">
+  <item nodeId="node-0xd8517c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -176,10 +411,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507b10" />
+      <child nodeId="node-0xd8518f0" />
     </children>
   </item>
-  <item nodeId="node-0x9507b10">
+  <item nodeId="node-0xd8518f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Volcano
@@ -190,10 +425,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9507ac0" />
+      <child nodeId="node-0xd8515e0" />
     </children>
   </item>
-  <item nodeId="node-0x9507ac0">
+  <item nodeId="node-0xd8515e0">
     <command xml:space="preserve">x calypso</command>
     <result xml:space="preserve">You see nothing special about Calypso.
 
@@ -202,7 +437,168 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0x9507a70">
+  <item nodeId="node-0xd87b100">
+    <command xml:space="preserve">take woof</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x73077c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x73077c0">
+    <command xml:space="preserve">take wood</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6c31a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6c31a0">
+    <command xml:space="preserve">combine flag with rum</command>
+    <result xml:space="preserve">(first taking the Bottle of Rum)
+You now have a Flammable Cloth.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x72a8580" />
+    </children>
+  </item>
+  <item nodeId="node-0x72a8580">
+    <command xml:space="preserve">combine wood with clothg</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x72c2380" />
+    </children>
+  </item>
+  <item nodeId="node-0x72c2380">
+    <command xml:space="preserve">combine wood with cloth</command>
+    <result xml:space="preserve">You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd84c6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd84c6b0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x73e0fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x73e0fd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc15430" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc15430">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xda4bf40" />
+    </children>
+  </item>
+  <item nodeId="node-0xda4bf40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd865f30" />
+    </children>
+  </item>
+  <item nodeId="node-0xd865f30">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xda5a180" />
+    </children>
+  </item>
+  <item nodeId="node-0xda5a180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xe664610" />
+    </children>
+  </item>
+  <item nodeId="node-0xe664610">
+    <command xml:space="preserve">give shell to calypso</command>
+    <result xml:space="preserve">Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xda1dd10" />
+    </children>
+  </item>
+  <item nodeId="node-0xda1dd10">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Lit Torch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0xd851960">
     <command xml:space="preserve">take rum</command>
     <result xml:space="preserve">Taken.
 
@@ -211,10 +607,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x9507a20" />
+      <child nodeId="node-0xd8519d0" />
     </children>
   </item>
-  <item nodeId="node-0x9507a20">
+  <item nodeId="node-0xd8519d0">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">You now have a Flammable Cloth.
 
@@ -223,10 +619,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x95079d0" />
+      <child nodeId="node-0xd851a40" />
     </children>
   </item>
-  <item nodeId="node-0x95079d0">
+  <item nodeId="node-0xd851a40">
     <command xml:space="preserve">combine cloth with wood</command>
     <result xml:space="preserve">(first taking the Scraps of Wood)
 You now have a Torch.
@@ -236,7 +632,7 @@ You now have a Torch.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x9507960">
+  <item nodeId="node-0xd851ab0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ocean
@@ -246,11 +642,11 @@ Ocean
     <changed>YES</changed>
     <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x9507880" />
-      <child nodeId="node-0x95078f0" />
+      <child nodeId="node-0xd851b90" />
+      <child nodeId="node-0xd851b20" />
     </children>
   </item>
-  <item nodeId="node-0x95078f0">
+  <item nodeId="node-0xd851b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -259,7 +655,7 @@ Ocean
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
   </item>
-  <item nodeId="node-0x9507880">
+  <item nodeId="node-0xd851b90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -269,10 +665,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x9507bc0" />
+      <child nodeId="node-0xd851830" />
     </children>
   </item>
-  <item nodeId="node-0x9507bc0">
+  <item nodeId="node-0xd851830">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -281,10 +677,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x9507b60" />
+      <child nodeId="node-0xd851880" />
     </children>
   </item>
-  <item nodeId="node-0x9507b60">
+  <item nodeId="node-0xd851880">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -293,10 +689,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x9507670" />
+      <child nodeId="node-0xd851d80" />
     </children>
   </item>
-  <item nodeId="node-0x9507670">
+  <item nodeId="node-0xd851d80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -305,10 +701,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x9507600" />
+      <child nodeId="node-0xd851df0" />
     </children>
   </item>
-  <item nodeId="node-0x9507600">
+  <item nodeId="node-0xd851df0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -317,10 +713,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x9507590" />
+      <child nodeId="node-0xd851e60" />
     </children>
   </item>
-  <item nodeId="node-0x9507590">
+  <item nodeId="node-0xd851e60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -329,7 +725,7 @@ Beach
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x9507520">
+  <item nodeId="node-0xd851ed0">
     <command xml:space="preserve">x flag</command>
     <result xml:space="preserve">A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable.
 
@@ -338,11 +734,11 @@ Beach
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x95073d0" />
-      <child nodeId="node-0x95074b0" />
+      <child nodeId="node-0xd852020" />
+      <child nodeId="node-0xd851f40" />
     </children>
   </item>
-  <item nodeId="node-0x95074b0">
+  <item nodeId="node-0xd851f40">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
@@ -351,10 +747,10 @@ Beach
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9507440" />
+      <child nodeId="node-0xd851fb0" />
     </children>
   </item>
-  <item nodeId="node-0x9507440">
+  <item nodeId="node-0xd851fb0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Tattered Flag
@@ -364,7 +760,7 @@ Beach
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x95073d0">
+  <item nodeId="node-0xd852020">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -377,10 +773,10 @@ You can see a Scraps of Wood here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x9507360" />
+      <child nodeId="node-0xd852090" />
     </children>
   </item>
-  <item nodeId="node-0x9507360">
+  <item nodeId="node-0xd852090">
     <command xml:space="preserve">x wood</command>
     <result xml:space="preserve">Originally part of the hull of the Scallywag, these pieces of wood may come in handy later.
 
@@ -389,7 +785,7 @@ You can see a Scraps of Wood here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
   </item>
-  <item nodeId="node-0x95072f0">
+  <item nodeId="node-0xd852100">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -397,13 +793,131 @@ Beach
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x9506550" />
-      <child nodeId="node-0x9507280" />
+      <child nodeId="node-0xd852ea0" />
+      <child nodeId="node-0x1880710" />
+      <child nodeId="node-0xd852170" />
+      <child nodeId="node-0xdc0d2e0" />
     </children>
   </item>
-  <item nodeId="node-0x9507280">
+  <item nodeId="node-0xdc0d2e0">
+    <command xml:space="preserve">x sanf</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xd815190" />
+    </children>
+  </item>
+  <item nodeId="node-0xd815190">
+    <command xml:space="preserve">x sand</command>
+    <result xml:space="preserve">It&apos;s sand. It has a silky feel to it and it&apos;s a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x7357d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x7357d50">
+    <command xml:space="preserve">x shell</command>
+    <result xml:space="preserve">It&apos;s a brilliant blue conch shell, the way it shimmers makes it seem almost magical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x72c44c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x72c44c0">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x73b2dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x73b2dd0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Magic Conch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0xd852170">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xd8521e0" />
+      <child nodeId="node-0xd85bbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd85bbb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x73af200" />
+    </children>
+  </item>
+  <item nodeId="node-0x73af200">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x72d0e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x72d0e50">
+    <command xml:space="preserve">x shell</command>
+    <result xml:space="preserve">You see nothing special about the Shell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xd828a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xd828a60">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0xd8521e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -412,10 +926,10 @@ Beach
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x9507210" />
+      <child nodeId="node-0xd851c00" />
     </children>
   </item>
-  <item nodeId="node-0x9507210">
+  <item nodeId="node-0xd851c00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -424,23 +938,11 @@ Beach
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x95077b0" />
+      <child nodeId="node-0xd8525e0" />
+      <child nodeId="node-0xd851c70" />
     </children>
   </item>
-  <item nodeId="node-0x95077b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x9506e10" />
-      <child nodeId="node-0x9507700" />
-    </children>
-  </item>
-  <item nodeId="node-0x9507700">
+  <item nodeId="node-0xd851c70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -453,10 +955,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x9507750" />
+      <child nodeId="node-0xd851ce0" />
     </children>
   </item>
-  <item nodeId="node-0x9507750">
+  <item nodeId="node-0xd851ce0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ocean
@@ -466,10 +968,10 @@ Ocean
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x9506f60" />
+      <child nodeId="node-0xd852490" />
     </children>
   </item>
-  <item nodeId="node-0x9506f60">
+  <item nodeId="node-0xd852490">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Underwater Cave
@@ -479,10 +981,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x9506ef0" />
+      <child nodeId="node-0xd852500" />
     </children>
   </item>
-  <item nodeId="node-0x9506ef0">
+  <item nodeId="node-0xd852500">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -491,10 +993,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x9506e80" />
+      <child nodeId="node-0xd852570" />
     </children>
   </item>
-  <item nodeId="node-0x9506e80">
+  <item nodeId="node-0xd852570">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -503,7 +1005,7 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x9506e10">
+  <item nodeId="node-0xd8525e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -512,10 +1014,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506da0" />
+      <child nodeId="node-0xd852650" />
     </children>
   </item>
-  <item nodeId="node-0x9506da0">
+  <item nodeId="node-0xd852650">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -524,10 +1026,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506d30" />
+      <child nodeId="node-0xd8526c0" />
     </children>
   </item>
-  <item nodeId="node-0x9506d30">
+  <item nodeId="node-0xd8526c0">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -536,10 +1038,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506cc0" />
+      <child nodeId="node-0xd852730" />
     </children>
   </item>
-  <item nodeId="node-0x9506cc0">
+  <item nodeId="node-0xd852730">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -548,10 +1050,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506c50" />
+      <child nodeId="node-0xd8527a0" />
     </children>
   </item>
-  <item nodeId="node-0x9506c50">
+  <item nodeId="node-0xd8527a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -560,10 +1062,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506be0" />
+      <child nodeId="node-0xd852810" />
     </children>
   </item>
-  <item nodeId="node-0x9506be0">
+  <item nodeId="node-0xd852810">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -572,10 +1074,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506b70" />
+      <child nodeId="node-0xd852880" />
     </children>
   </item>
-  <item nodeId="node-0x9506b70">
+  <item nodeId="node-0xd852880">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -584,10 +1086,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506b00" />
+      <child nodeId="node-0xd8528f0" />
     </children>
   </item>
-  <item nodeId="node-0x9506b00">
+  <item nodeId="node-0xd8528f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -596,10 +1098,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506a90" />
+      <child nodeId="node-0xd852960" />
     </children>
   </item>
-  <item nodeId="node-0x9506a90">
+  <item nodeId="node-0xd852960">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -608,10 +1110,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506a20" />
+      <child nodeId="node-0xd8529d0" />
     </children>
   </item>
-  <item nodeId="node-0x9506a20">
+  <item nodeId="node-0xd8529d0">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -620,10 +1122,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x95069b0" />
+      <child nodeId="node-0xd852a40" />
     </children>
   </item>
-  <item nodeId="node-0x95069b0">
+  <item nodeId="node-0xd852a40">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -632,10 +1134,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506940" />
+      <child nodeId="node-0xd852ab0" />
     </children>
   </item>
-  <item nodeId="node-0x9506940">
+  <item nodeId="node-0xd852ab0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You see nothing unexpected in that direction.
 
@@ -644,10 +1146,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x95068d0" />
+      <child nodeId="node-0xd852b20" />
     </children>
   </item>
-  <item nodeId="node-0x95068d0">
+  <item nodeId="node-0xd852b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -660,10 +1162,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506860" />
+      <child nodeId="node-0xd852b90" />
     </children>
   </item>
-  <item nodeId="node-0x9506860">
+  <item nodeId="node-0xd852b90">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
@@ -672,10 +1174,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506fb0" />
+      <child nodeId="node-0xd852250" />
     </children>
   </item>
-  <item nodeId="node-0x9506fb0">
+  <item nodeId="node-0xd852250">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -688,10 +1190,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9507020" />
+      <child nodeId="node-0xd8522c0" />
     </children>
   </item>
-  <item nodeId="node-0x9507020">
+  <item nodeId="node-0xd8522c0">
     <command xml:space="preserve">take wood</command>
     <result xml:space="preserve">Taken.
 
@@ -700,10 +1202,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9507090" />
+      <child nodeId="node-0xd852330" />
     </children>
   </item>
-  <item nodeId="node-0x9507090">
+  <item nodeId="node-0xd852330">
     <command xml:space="preserve">take rum</command>
     <result xml:space="preserve">Taken.
 
@@ -712,10 +1214,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9507100" />
+      <child nodeId="node-0xd8523a0" />
     </children>
   </item>
-  <item nodeId="node-0x9507100">
+  <item nodeId="node-0xd8523a0">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">You now have a Flammable Cloth.
 
@@ -724,10 +1226,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9507170" />
+      <child nodeId="node-0xd852410" />
     </children>
   </item>
-  <item nodeId="node-0x9507170">
+  <item nodeId="node-0xd852410">
     <command xml:space="preserve">combing cloth with wood</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -736,10 +1238,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x95067f0" />
+      <child nodeId="node-0xd852c00" />
     </children>
   </item>
-  <item nodeId="node-0x95067f0">
+  <item nodeId="node-0xd852c00">
     <command xml:space="preserve">combine scraps with cloth</command>
     <result xml:space="preserve">You now have a Lit Torch.
 
@@ -748,10 +1250,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506780" />
+      <child nodeId="node-0xd852c70" />
     </children>
   </item>
-  <item nodeId="node-0x9506780">
+  <item nodeId="node-0xd852c70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -760,10 +1262,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506710" />
+      <child nodeId="node-0xd852ce0" />
     </children>
   </item>
-  <item nodeId="node-0x9506710">
+  <item nodeId="node-0xd852ce0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -774,10 +1276,10 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x95066a0" />
+      <child nodeId="node-0xd852d50" />
     </children>
   </item>
-  <item nodeId="node-0x95066a0">
+  <item nodeId="node-0xd852d50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -787,10 +1289,10 @@ Beach
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x9506630" />
+      <child nodeId="node-0xd852dc0" />
     </children>
   </item>
-  <item nodeId="node-0x9506630">
+  <item nodeId="node-0xd852dc0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -800,10 +1302,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0x95065c0" />
+      <child nodeId="node-0xd852e30" />
     </children>
   </item>
-  <item nodeId="node-0x95065c0">
+  <item nodeId="node-0xd852e30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -812,7 +1314,64 @@ Jungle
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
   </item>
-  <item nodeId="node-0x9506550">
+  <item nodeId="node-0x1880710">
+    <command xml:space="preserve">x sand</command>
+    <result xml:space="preserve">It&apos;s sand. It has a silky feel to it and it&apos;s a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell..
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6d69c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6d69c0">
+    <command xml:space="preserve">x shell</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xe6a7290" />
+    </children>
+  </item>
+  <item nodeId="node-0xe6a7290">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xdc8b530" />
+    </children>
+  </item>
+  <item nodeId="node-0xdc8b530">
+    <command xml:space="preserve">take conch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x73f69c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x73f69c0">
+    <command xml:space="preserve">take conch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0xd852ea0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -823,10 +1382,10 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x95064e0" />
+      <child nodeId="node-0xd852f10" />
     </children>
   </item>
-  <item nodeId="node-0x95064e0">
+  <item nodeId="node-0xd852f10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -835,7 +1394,7 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x9506470">
+  <item nodeId="node-0xd852f80">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -844,7 +1403,7 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x9506400">
+  <item nodeId="node-0xd852ff0">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -854,10 +1413,10 @@ Cargo Hold
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x9506390" />
+      <child nodeId="node-0xd853060" />
     </children>
   </item>
-  <item nodeId="node-0x9506390">
+  <item nodeId="node-0xd853060">
     <command xml:space="preserve">penis</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -866,7 +1425,7 @@ Cargo Hold
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x9506320">
+  <item nodeId="node-0xd8530d0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -879,7 +1438,7 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x95062b0">
+  <item nodeId="node-0xd853140">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -888,10 +1447,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x9506240" />
+      <child nodeId="node-0xd8531b0" />
     </children>
   </item>
-  <item nodeId="node-0x9506240">
+  <item nodeId="node-0xd8531b0">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
