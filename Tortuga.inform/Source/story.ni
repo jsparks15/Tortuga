@@ -58,8 +58,11 @@ The Bottle of Rum is an object. It is in the Cargo Hold. The description is "A b
 Understand "bottle" as the Bottle of Rum.
 
 [The Beach]
-The Beach is a room. It is east of the Scallywag.
+The Beach is a room. It is east of the Scallywag. "The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle."
 [Sand and x sand reveals shell used to bribe witch lady]
+The Treeline is scenery in The Beach. The description is "A lot of trees. In a line. A Treeline."
+The Rocks are scenery in The Beach. The description is "Large rocks, very boring. Unless you are into geology."
+The Water is scenery in The Beach. The description is "Amazingly clear you can see through the waves as the barrel and crash up on the sand."
 The Sand is scenery in The Beach. The description is "It's sand. It has a silky feel to it and it's a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell..."
 The Magic Conch is an object. It is in Limbo.
 Understand "shell" as the Magic Conch.
@@ -73,7 +76,7 @@ Instead of taking the Shell:
 	
 
 [Jungle Region]
-The Jungle is a room. 
+The Jungle is a room. The description is "Not completed yet, nothing in here and volcano is noth and ruins are south. Nothing is in the ruins yet either."
 The Volcano is a room. 
 The Ruins is a room. 
 The Jungle is east of the Beach. The Volcano is north of the Jungle. The Ruins is south of the Jungle.
@@ -87,9 +90,9 @@ The Ocean is a room.
 The Underwater Cave is a room.
 The Ocean is west of the Scallywag. The Underwater Cave is below the Ocean.
 
-Water is a region. The Ocean and Underwater cave are in Water.
+Swag is a region. The Ocean and Underwater cave are in Swag.
 
-Instead of going to Water when the player does not carry the Fishbowl: say "It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet."
+Instead of going to Swag when the player does not carry the Fishbowl: say "It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet."
 
 [The Jungle]
 The Jungle is a room. It is east of the Beach.

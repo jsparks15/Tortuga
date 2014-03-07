@@ -29,7 +29,7 @@ Array UUID_ARRAY string "UUID://E7A96D3C-D86D-49CA-894E-36CD61624D18//";
 Constant Story "Tortuga";
 Constant Headline "An Interactive Fiction";
 Constant Story_Author SC_2;
-Serial "140305";
+Serial "140307";
 
 Default Story 0;
 Default Headline 0;
@@ -4292,7 +4292,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*35;
+Constant REQUISITION_STACK_SIZE = 3*38;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9101,8 +9101,8 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
 ];
 [ T58 value;
     switch(value) {
-        I111_angry: print "angry";
-        I112_happy: print "happy";
+        I114_angry: print "angry";
+        I115_happy: print "happy";
         default: print "<illegal mood>";
     }
 ];
@@ -9202,7 +9202,7 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
         41: return ;
         42: return ;
         43: return I68_didn_t_understand_error;
-        44: return I111_angry;
+        44: return I114_angry;
         default: return 0;
     }
 ];
@@ -9317,7 +9317,7 @@ Constant IK5_First = I88_limbo;
 Constant IK6_First = nothing;
 Constant IK7_First = nothing;
 Constant IK8_First = selfobj;
-Constant IK9_First = I104_gloomy_jungle;
+Constant IK9_First = I107_gloomy_jungle;
 Constant IK10_First = nothing;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
@@ -9339,14 +9339,14 @@ Constant DirectionObject_9 = I55_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- 0 0 0 0 0 0 I97_beach I105_ocean 0 I94_cargo_hold 0 0 ! Exits from: I91_scallywag
+ 0 0 0 0 0 0 I97_beach I108_ocean 0 I94_cargo_hold 0 0 ! Exits from: I91_scallywag
  0 0 0 0 0 0 0 0 I91_scallywag 0 0 0 ! Exits from: I94_cargo_hold
- 0 0 0 0 0 0 I101_jungle I91_scallywag 0 0 0 0 ! Exits from: I97_beach
- I102_volcano 0 0 I103_ruins 0 0 0 I97_beach 0 0 0 0 ! Exits from: I101_jungle
- 0 0 0 I101_jungle 0 0 0 0 0 0 0 0 ! Exits from: I102_volcano
- I101_jungle 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I103_ruins
- 0 0 0 0 0 0 I91_scallywag 0 0 I106_underwater_cave 0 0 ! Exits from: I105_ocean
- 0 0 0 0 0 0 0 0 I105_ocean 0 0 0 ! Exits from: I106_underwater_cave
+ 0 0 0 0 0 0 I104_jungle I91_scallywag 0 0 0 0 ! Exits from: I97_beach
+ I105_volcano 0 0 I106_ruins 0 0 0 I97_beach 0 0 0 0 ! Exits from: I104_jungle
+ 0 0 0 I104_jungle 0 0 0 0 0 0 0 0 ! Exits from: I105_volcano
+ I104_jungle 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I106_ruins
+ 0 0 0 0 0 0 I91_scallywag 0 0 I109_underwater_cave 0 0 ! Exits from: I108_ocean
+ 0 0 0 0 0 0 0 0 I108_ocean 0 0 0 ! Exits from: I109_underwater_cave
 ;
 
 Class VPH_Class;
@@ -9420,7 +9420,7 @@ Class K8_person
     with capacity 100
     has ~female
     has ~neuter
-    with p56_mood I111_angry
+    with p56_mood I114_angry
 ;
 
 Class K10_man 
@@ -9712,7 +9712,7 @@ Object selfobj ""
     with IK2_Count 0
     with IK2_Link I88_limbo
     with IK8_Count 0
-    with IK8_Link I109_calypso
+    with IK8_Link I112_calypso
     with KD_Count 8
     with name 'yourself' 
     with action_bitmap 0 0 0 0 0 0 
@@ -9755,19 +9755,19 @@ Object -> I90_flammable_cloth ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 3
-    with IK2_Link I99_magic_conch
+    with IK2_Link I102_magic_conch
     with KD_Count 2
     with name 'flammable' 'cloth' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I99_magic_conch ""
+Object -> I102_magic_conch ""
     class K2_thing
     with short_name "Magic Conch"
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 9
+    with IK2_Count 12
     with IK2_Link I92_sea
     with KD_Count 2
     with name 'magic' 'conch' 'shell' 'conch' 
@@ -9857,7 +9857,7 @@ Object -> I96_bottle_of_rum ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 7
-    with IK2_Link I98_sand
+    with IK2_Link I98_treeline
     with KD_Count 2
     with name 'bottle' 'of' 'rum' 'bottle' 
     with parse_name Parse_Name_GV99
@@ -9867,88 +9867,138 @@ Object -> I96_bottle_of_rum ""
 Object I97_beach ""
     class K1_room
     with short_name "Beach"
+    with description SC_11
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 2
-    with IK1_Link I101_jungle
+    with IK1_Link I104_jungle
     with KD_Count 1
     with name 'beach' 
 ;
 
-Object -> I98_sand ""
+Object -> I98_treeline ""
     class K2_thing
-    with short_name "Sand"
-    with description SC_11
-    has static
-    has scenery
-    with vector 0
-    with list_together 0
-    has mark_as_thing
-    with IK2_Count 8
-    with IK2_Link I100_shell
-    with KD_Count 2
-    with name 'sand' 
-    with action_bitmap 0 0 0 0 0 0 
-;
-
-Object -> I100_shell ""
-    class K2_thing
-    with short_name "Shell"
+    with short_name "Treeline"
     with description SC_12
     has static
     has scenery
     with vector 0
     with list_together 0
     has mark_as_thing
+    with IK2_Count 8
+    with IK2_Link I99_rocks
+    with KD_Count 2
+    with name 'treeline' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I99_rocks ""
+    class K2_thing
+    with short_name "Rocks"
+    with description SC_13
+    has static
+    has scenery
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 9
+    with IK2_Link I100_water
+    with KD_Count 2
+    with name 'rocks' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I100_water ""
+    class K2_thing
+    with short_name "Water"
+    with description SC_14
+    has static
+    has scenery
+    with vector 0
+    with list_together 0
+    has mark_as_thing
     with IK2_Count 10
-    with IK2_Link I109_calypso
+    with IK2_Link I101_sand
+    with KD_Count 2
+    with name 'water' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I101_sand ""
+    class K2_thing
+    with short_name "Sand"
+    with description SC_15
+    has static
+    has scenery
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 11
+    with IK2_Link I103_shell
+    with KD_Count 2
+    with name 'sand' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I103_shell ""
+    class K2_thing
+    with short_name "Shell"
+    with description SC_16
+    has static
+    has scenery
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 13
+    with IK2_Link I112_calypso
     with KD_Count 2
     with name 'shell' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I101_jungle ""
+Object I104_jungle ""
     class K1_room
     with short_name "Jungle"
-    with map_region I104_gloomy_jungle
+    with description SC_17
+    with map_region I107_gloomy_jungle
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 3
-    with IK1_Link I102_volcano
+    with IK1_Link I105_volcano
     with KD_Count 1
     with name 'jungle' 
 ;
 
-Object I102_volcano ""
+Object I105_volcano ""
     class K1_room
     with short_name "Volcano"
-    with map_region I104_gloomy_jungle
+    with map_region I107_gloomy_jungle
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 4
-    with IK1_Link I103_ruins
+    with IK1_Link I106_ruins
     with KD_Count 1
     with name 'volcano' 
 ;
 
-Object -> I109_calypso ""
+Object -> I112_calypso ""
     class K8_person
     with short_name "Calypso"
     with description text_routine_0
     has proper
-    with p56_mood I111_angry
+    with p56_mood I114_angry
     with vector 0
     with list_together 0
     with cap_short_name "Calypso"
     has mark_as_thing
-    with IK2_Count 12
-    with IK2_Link I108_fishbowl
+    with IK2_Count 15
+    with IK2_Link I111_fishbowl
     with IK8_Count 1
     with IK8_Link nothing
     with KD_Count 8
@@ -9956,67 +10006,67 @@ Object -> I109_calypso ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> -> I108_fishbowl ""
+Object -> -> I111_fishbowl ""
     class K2_thing
     with short_name "Fishbowl"
-    with description SC_13
+    with description SC_18
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 11
+    with IK2_Count 14
     with IK2_Link nothing
     with KD_Count 2
     with name 'fishbowl' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I103_ruins ""
+Object I106_ruins ""
     class K1_room
     with short_name "Ruins"
-    with map_region I104_gloomy_jungle
+    with map_region I107_gloomy_jungle
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 5
-    with IK1_Link I105_ocean
+    with IK1_Link I108_ocean
     with KD_Count 1
     with name 'ruins' 
 ;
 
-Object I104_gloomy_jungle ""
+Object I107_gloomy_jungle ""
     class K9_region
     with short_name "Gloomy Jungle"
     has proper
     with vector 0
     with list_together 0
     with cap_short_name "Gloomy Jungle"
-    with regional_found_in [; if (TestRegionalContainment(location, I104_gloomy_jungle)) rtrue; rfalse; ],
+    with regional_found_in [; if (TestRegionalContainment(location, I107_gloomy_jungle)) rtrue; rfalse; ],
     with IK9_Count 0
-    with IK9_Link I107_water
+    with IK9_Link I110_swag
     with KD_Count 9
     with name 'gloomy' 'jungle' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I105_ocean ""
+Object I108_ocean ""
     class K1_room
     with short_name "Ocean"
-    with map_region I107_water
+    with map_region I110_swag
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 6
-    with IK1_Link I106_underwater_cave
+    with IK1_Link I109_underwater_cave
     with KD_Count 1
     with name 'ocean' 
 ;
 
-Object I106_underwater_cave ""
+Object I109_underwater_cave ""
     class K1_room
     with short_name "Underwater Cave"
-    with map_region I107_water
+    with map_region I110_swag
     with vector 0
     with room_index -1
     with list_together 0
@@ -10027,18 +10077,18 @@ Object I106_underwater_cave ""
     with name 'underwater' 'cave' 
 ;
 
-Object I107_water ""
+Object I110_swag ""
     class K9_region
-    with short_name "Water"
+    with short_name "Swag"
     has proper
     with vector 0
     with list_together 0
-    with cap_short_name "Water"
-    with regional_found_in [; if (TestRegionalContainment(location, I107_water)) rtrue; rfalse; ],
+    with cap_short_name "Swag"
+    with regional_found_in [; if (TestRegionalContainment(location, I110_swag)) rtrue; rfalse; ],
     with IK9_Count 1
     with IK9_Link nothing
     with KD_Count 9
-    with name 'water' 
+    with name 'swag' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
@@ -10064,11 +10114,11 @@ Constant I84_nothing_to_do_error = 17;
 Constant I85_noun_did_not_make_sense_ = 18;
 Constant I86_referred_to_a_determinat = 19;
 Constant I87_i_beg_your_pardon_error = 20;
-Constant I111_angry = 1;
-Constant I112_happy = 2;
+Constant I114_angry = 1;
+Constant I115_happy = 2;
 Array Global_Vars -->
   (false) ! 7
-  (SC_14) ! 24
+  (SC_19) ! 24
   (SC_2) ! 29
   (EMPTY_TEXT_VALUE) ! 30
   (EMPTY_TEXT_VALUE) ! 31
@@ -10081,16 +10131,16 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0064 0  (SC_15)  (SC_16)  (SC_17)  (SC_18)  (SC_19) ;
+Array tab_0_0 table $0064 0  (SC_20)  (SC_21)  (SC_22)  (SC_23)  (SC_24) ;
 Array tab_0_1 table $0465 1  (0)  (0)  (1)  (0)  (0) ;
 Array tab_0_2 table $2066 2  (Consult_Grammar_101)  (Consult_Grammar_102)  (Consult_Grammar_103)  (Consult_Grammar_104)  (Consult_Grammar_105) ;
 Array tab_0_3 table $0067 3  (IMMEDIATELY_RESTART_VM_R)  (IMMEDIATELY_RESTORE_SAVED_R)  TABLE_NOVALUE (IMMEDIATELY_QUIT_R)  (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4  TABLE_NOVALUE TABLE_NOVALUE (V26_amusing_a_victorious_pla)  TABLE_NOVALUE TABLE_NOVALUE;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array T2_outcome_objects table  tab_2_0 tab_2_1;
-Array tab_2_0 table $066b 7  (LIST_CONST_223)  (LIST_CONST_233)  (LIST_CONST_243)  (LIST_CONST_253) ;
+Array tab_2_0 table $066b 8  (LIST_CONST_223)  (LIST_CONST_233)  (LIST_CONST_243)  (LIST_CONST_253) ;
 Array tab_2_1 table $086c NULL  (I90_flammable_cloth)  (I89_lit_torch)  (I90_flammable_cloth)  (I89_lit_torch) ;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
@@ -10101,7 +10151,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $3f  ! Column 1
+  $ff $ff $01  ! Column 1
   
   ! For table T2_outcome_objects
   $00  ! Column 0
@@ -10651,7 +10701,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_744 ;
       ! phrase 1
       ! [1: say ~You wake up on the deck of your ship. Your head is throbbing, slowly you begin to remember what happened. The storm, the waves, the reef. You are lucky you managed to survive. Your crew on the other hand, was not so fortunate. Marooned on an unknown island, you should try to find a way back home.~]
-      say__p=1;ParaContent();  print (PrintText) SC_20;  new_line; .L_Say1; .L_SayX1;
+      say__p=1;ParaContent();  print (PrintText) SC_25;  new_line; .L_Say1; .L_SayX1;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -10709,7 +10759,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_20 ;
       ! phrase 1
       ! [1: if the current item from the multiple object list is not nothing , say ~[current item from the multiple object list]: [run paragraph on]~]
-       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_21; ParaContent();  RunParagraphOn();  .L_Say3; .L_SayX3;  }
+       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_26; ParaContent();  RunParagraphOn();  .L_Say3; .L_SayX3;  }
    rfalse;
 ];
 ! No specific request
@@ -11102,7 +11152,7 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/6 ! Instead of going to Gloomy Jungle when the player does not carry the Lit Torch:
 !   === which is equally specific with ===
-! Rule 2/6 ! Instead of going to Water when the player does not carry the Fishbowl:
+! Rule 2/6 ! Instead of going to Swag when the player does not carry the Fishbowl:
 !   >>> I - Number of aspects constrained >>>
 ! Rule 3/6 ! Instead of asking Calypso for the Fishbowl:
 !   === which is equally specific with ===
@@ -11115,26 +11165,26 @@ self = noun;
 ! No specific request
 ! Instead of going to Gloomy Jungle when the player does not carry the Lit Torch:
 [ R_746 ;
-   if ((action ==##Go) &&  (actor==player) && (TestRegionalContainment((MStack-->MstVON(20007,1)),I104_gloomy_jungle)) && (self=actor,true) && (((~~((player == CarrierOf(I89_lit_torch))))))) { ! Runs only when pattern matches
+   if ((action ==##Go) &&  (actor==player) && (TestRegionalContainment((MStack-->MstVON(20007,1)),I107_gloomy_jungle)) && (self=actor,true) && (((~~((player == CarrierOf(I89_lit_torch))))))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_746, 746);
       ! phrase 1
       ! [1: say ~It's a dark and spooky jungle. Maybe you should bring some light.~]
-      say__p=1;ParaContent();  print (PrintText) SC_22;  new_line; .L_Say4; .L_SayX4;
+      say__p=1;ParaContent();  print (PrintText) SC_27;  new_line; .L_Say4; .L_SayX4;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_746, 746, true);
    rfalse;
 ];
 ! No specific request
-! Instead of going to Water when the player does not carry the Fishbowl:
+! Instead of going to Swag when the player does not carry the Fishbowl:
 [ R_747 ;
-   if ((action ==##Go) &&  (actor==player) && (TestRegionalContainment((MStack-->MstVON(20007,1)),I107_water)) && (self=actor,true) && (((~~((player == CarrierOf(I108_fishbowl))))))) { ! Runs only when pattern matches
+   if ((action ==##Go) &&  (actor==player) && (TestRegionalContainment((MStack-->MstVON(20007,1)),I110_swag)) && (self=actor,true) && (((~~((player == CarrierOf(I111_fishbowl))))))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_747, 747);
       ! phrase 1
       ! [1: say ~It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet.~]
-      say__p=1;ParaContent();  print (PrintText) SC_23;  new_line; .L_Say5; .L_SayX5;
+      say__p=1;ParaContent();  print (PrintText) SC_28;  new_line; .L_Say5; .L_SayX5;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_747, 747, true);
@@ -11143,15 +11193,15 @@ self = noun;
 ! No specific request
 ! Instead of asking Calypso for the Fishbowl:
 [ R_749 ;
-   if ((action ==##AskFor) &&  (actor==player) && ((noun == I109_calypso) && (true)) && ((second == I108_fishbowl) && (true))) { ! Runs only when pattern matches
+   if ((action ==##AskFor) &&  (actor==player) && ((noun == I112_calypso) && (true)) && ((second == I111_fishbowl) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_749, 749);
       ! phrase 1
       ! [1: if calypso is angry begin]
-       if ((((Adj_74_t1_v9(I109_calypso)))))  {
+       if ((((Adj_74_t1_v9(I112_calypso)))))  {
          ! phrase 2
          ! [2: say ~Calypso glares at you angrily, 'You should give me something first!' she says.~]
-         say__p=1;ParaContent();  print (PrintText) SC_24;  new_line; .L_Say6; .L_SayX6;
+         say__p=1;ParaContent();  print (PrintText) SC_29;  new_line; .L_Say6; .L_SayX6;
          ! phrase 3
          ! [3: end if]
          }
@@ -11164,18 +11214,18 @@ self = noun;
 ! No specific request
 ! Instead of giving the Magic Conch to Calypso:
 [ R_750 ;
-   if ((action ==##Give) &&  (actor==player) && ((noun == I99_magic_conch) && (true)) && ((second == I109_calypso) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Give) &&  (actor==player) && ((noun == I102_magic_conch) && (true)) && ((second == I112_calypso) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_750, 750);
       ! phrase 1
       ! [1: move the magic conch to calypso]
-       MoveObject(I99_magic_conch, I109_calypso, 0, false); 
+       MoveObject(I102_magic_conch, I112_calypso, 0, false); 
       ! phrase 2
       ! [2: now calypso is happy]
-       (Adj_75_t2_v9(I109_calypso)); 
+       (Adj_75_t2_v9(I112_calypso)); 
       ! phrase 3
       ! [3: say ~'Oooh thanks! This is such a pretty conch. It'll fit nicely in my collection. Here take this Fishbowl.'~]
-      say__p=1;ParaContent();  print (PrintText) SC_25;  new_line; .L_Say7; .L_SayX7;
+      say__p=1;ParaContent();  print (PrintText) SC_30;  new_line; .L_Say7; .L_SayX7;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_750, 750, true);
@@ -11184,15 +11234,15 @@ self = noun;
 ! No specific request
 ! Instead of taking the Shell:
 [ R_745 ;
-   if ((action ==##Take) &&  (actor==player) && ((noun == I100_shell) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Take) &&  (actor==player) && ((noun == I103_shell) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_745, 745);
       ! phrase 1
       ! [1: move magic conch to player]
-       MoveObject(I99_magic_conch, player, 0, false); 
+       MoveObject(I102_magic_conch, player, 0, false); 
       ! phrase 2
       ! [2: say ~You walk over towards the shell. As you get closer you notice that it's a lot larger then initially expected. You pull it out of the sand to get a closer look. It's a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.~]
-      say__p=1;ParaContent();  print (PrintText) SC_26;  new_line; .L_Say8; .L_SayX8;
+      say__p=1;ParaContent();  print (PrintText) SC_31;  new_line; .L_Say8; .L_SayX8;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_745, 745, true);
@@ -11201,15 +11251,15 @@ self = noun;
 ! No specific request
 ! Instead of attacking Calypso:
 [ R_748 ;
-   if ((action ==##Attack) &&  (actor==player) && ((noun == I109_calypso) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Attack) &&  (actor==player) && ((noun == I112_calypso) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_748, 748);
       ! phrase 1
       ! [1: say ~She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears..~]
-      say__p=1;ParaContent();  print (PrintText) SC_27;  new_line; .L_Say9; .L_SayX9;
+      say__p=1;ParaContent();  print (PrintText) SC_32;  new_line; .L_Say9; .L_SayX9;
       ! phrase 2
       ! [2: end the game saying ~You are tragically never found nor rescued. That's what you get for messing with witch ladies.~]
-       deadflag=SC_28; story_complete=false; 
+       deadflag=SC_33; story_complete=false; 
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_748, 748, true);
@@ -11299,7 +11349,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_60, 60);
       ! phrase 1
       ! [1: say ~[listing group size in words] ~]
-      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_29;  .L_Say11; .L_SayX11;
+      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_34;  .L_Say11; .L_SayX11;
       ! phrase 2
       ! [2: carry out the printing the plural name activity with the item]
        CarryOutActivity(V1_printing_the_plural_name_, t_0); 
@@ -11512,7 +11562,7 @@ self = noun;
        if (((t_0 < 1))) {  if (ProcessRulebook(IMMEDIATELY_QUIT_R)) rtrue;   }
       ! phrase 10
       ! [10: say ~Would you like to ~]
-      say__p=1;ParaContent();  print (PrintText) SC_30;  .L_Say12; .L_SayX12;
+      say__p=1;ParaContent();  print (PrintText) SC_35;  .L_Say12; .L_SayX12;
       ! phrase 11
       ! [11: repeat through the table of final question options begin]
        @push ct_0; @push ct_1;
@@ -11539,23 +11589,23 @@ self = noun;
                    if (((t_0 == 0)))  {
                      ! phrase 18
                      ! [18: say ~?[line break]~]
-                     say__p=1;ParaContent();  print (PrintText) SC_31; ParaContent();  new_line;  .L_Say14; .L_SayX14;
+                     say__p=1;ParaContent();  print (PrintText) SC_36; ParaContent();  new_line;  .L_Say14; .L_SayX14;
                      ! phrase 19
                      ! [19: otherwise if the named options count is 1]
                       } else if (((t_0 == 1))) { 
                      ! phrase 20
                      ! [20: if the serial comma option is active , say ~,~]
-                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_32;  .L_Say15; .L_SayX15;  }
+                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_37;  .L_Say15; .L_SayX15;  }
                      ! phrase 21
                      ! [21: say ~ or ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_33;  .L_Say16; .L_SayX16;
+                     say__p=1;ParaContent();  print (PrintText) SC_38;  .L_Say16; .L_SayX16;
                      ! phrase 22
                      ! [22: otherwise]
                      } else {
 
                      ! phrase 23
                      ! [23: say ~, ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_34;  .L_Say17; .L_SayX17;
+                     say__p=1;ParaContent();  print (PrintText) SC_39;  .L_Say17; .L_SayX17;
                      ! phrase 24
                      ! [24: end if]
                      }
@@ -11584,7 +11634,7 @@ self = noun;
 [ R_68 ;
       ! phrase 1
       ! [1: say ~> [run paragraph on]~]
-      say__p=1;ParaContent();  print (PrintText) SC_35; ParaContent();  RunParagraphOn();  .L_Say18; .L_SayX18;
+      say__p=1;ParaContent();  print (PrintText) SC_40; ParaContent();  RunParagraphOn();  .L_Say18; .L_SayX18;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11837,40 +11887,40 @@ self = noun;
                 if (((t_0 ofclass K1_room)))  {
                   ! phrase 22
                   ! [22: if the domain is the location , say ~You ~]
-                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_36;  .L_Say19; .L_SayX19;  }
+                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_41;  .L_Say19; .L_SayX19;  }
                   ! phrase 23
                   ! [23: otherwise say ~In [the domain] you ~]
-                   else { say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_38;  .L_Say20; .L_SayX20;  }
+                   else { say__p=1;ParaContent();  print (PrintText) SC_42; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_43;  .L_Say20; .L_SayX20;  }
                   ! phrase 24
                   ! [24: otherwise if the domain is a supporter]
                    } else if (((t_0 ofclass K6_supporter))) { 
                   ! phrase 25
                   ! [25: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_39; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_38;  .L_Say21; .L_SayX21;
+                  say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_43;  .L_Say21; .L_SayX21;
                   ! phrase 26
                   ! [26: otherwise if the domain is an animal]
                    } else if (((t_0 ofclass K12_animal))) { 
                   ! phrase 27
                   ! [27: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_39; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_38;  .L_Say22; .L_SayX22;
+                  say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_43;  .L_Say22; .L_SayX22;
                   ! phrase 28
                   ! [28: otherwise]
                   } else {
 
                   ! phrase 29
                   ! [29: say ~In [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_38;  .L_Say23; .L_SayX23;
+                  say__p=1;ParaContent();  print (PrintText) SC_42; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_43;  .L_Say23; .L_SayX23;
                   ! phrase 30
                   ! [30: end if]
                   }
 
                ! phrase 31
                ! [31: say ~can [if the locale paragraph count is greater than 0]also [end if]see ~]
-               say__p=1;ParaContent();  print (PrintText) SC_40; 
+               say__p=1;ParaContent();  print (PrintText) SC_45; 
 	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say24;
-		ParaContent();  print (PrintText) SC_41; 
+		ParaContent();  print (PrintText) SC_46; 
 	.L_Say24; .L_SayX24;
-		ParaContent();  print (PrintText) SC_42;  .L_Say25; .L_SayX25;
+		ParaContent();  print (PrintText) SC_47;  .L_Say25; .L_SayX25;
                ! phrase 32
                ! [32: let the common holder be nothing]
                 t_2 = nothing; 
@@ -11916,10 +11966,10 @@ self = noun;
 		@pull subst__v;  .L_Say26; .L_SayX26;  }
                ! phrase 44
                ! [44: if the domain is the location , say ~ here~]
-                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_43;  .L_Say27; .L_SayX27;  }
+                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_48;  .L_Say27; .L_SayX27;  }
                ! phrase 45
                ! [45: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say28; .L_SayX28;
+               say__p=1;ParaContent();  print (PrintText) SC_49; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say28; .L_SayX28;
                ! phrase 46
                ! [46: unfilter list recursion]
                 list_filter_routine = 0; 
@@ -12180,13 +12230,13 @@ self = noun;
 
                ! phrase 13
                ! [13: say ~On [the item] ~]
-               say__p=1;ParaContent();  print (PrintText) SC_39; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_29;  .L_Say33; .L_SayX33;
+               say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_34;  .L_Say33; .L_SayX33;
                ! phrase 14
                ! [14: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
                 WriteListFrom(child(t_0), 3800); 
                ! phrase 15
                ! [15: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say34; .L_SayX34;
+               say__p=1;ParaContent();  print (PrintText) SC_49; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say34; .L_SayX34;
                ! phrase 16
                ! [16: end if]
                }
@@ -12254,13 +12304,13 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 11
             ! [11: say ~On [the item] ~]
-            say__p=1;ParaContent();  print (PrintText) SC_39; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_29;  .L_Say35; .L_SayX35;
+            say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_34;  .L_Say35; .L_SayX35;
             ! phrase 12
             ! [12: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
              WriteListFrom(child(t_0), 3800); 
             ! phrase 13
             ! [13: say ~.[paragraph break]~]
-            say__p=1;ParaContent();  print (PrintText) SC_44; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say36; .L_SayX36;
+            say__p=1;ParaContent();  print (PrintText) SC_49; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say36; .L_SayX36;
             ! phrase 14
             ! [14: end if]
             }
@@ -12310,7 +12360,7 @@ self = noun;
        GL__M(##Inv,2,noun); 
       ! phrase 2
       ! [2: say ~:[line break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_45; ParaContent();  new_line;  .L_Say37; .L_SayX37;
+      say__p=1;ParaContent();  print (PrintText) SC_50; ParaContent();  new_line;  .L_Say37; .L_SayX37;
       ! phrase 3
       ! [3: list the contents of the player , with newlines , indented , including contents , giving inventory information , with extra indentation]
        WriteListFrom(child(player), 8215); 
@@ -13906,7 +13956,7 @@ self = noun;
           if (((~~(((MStack-->MstVO(20007,3)) == nothing)))))  {
             ! phrase 49
             ! [49: say ~ ~]
-            say__p=1;ParaContent();  print (PrintText) SC_29;  .L_Say38; .L_SayX38;
+            say__p=1;ParaContent();  print (PrintText) SC_34;  .L_Say38; .L_SayX38;
             ! phrase 50
             ! [50: if the vehicle gone by is a supporter , issue actor-based library message going action number 20 for the vehicle gone by]
              if ((((MStack-->MstVO(20007,3)) ofclass K6_supporter))) {  AGL__M(##Go,20,(MStack-->MstVO(20007,3)));   }
@@ -13961,7 +14011,7 @@ self = noun;
              AGL__M(##Go,26,noun); 
             ! phrase 66
             ! [66: say ~.~]
-            say__p=1;ParaContent();  print (PrintText) SC_44;  new_line; .L_Say39; .L_SayX39;
+            say__p=1;ParaContent();  print (PrintText) SC_49;  new_line; .L_Say39; .L_SayX39;
             ! phrase 67
             ! [67: try looking]
              TryAction(0, player, ##Look, 0, 0);; 
@@ -13974,7 +14024,7 @@ self = noun;
 
          ! phrase 70
          ! [70: say ~.~]
-         say__p=1;ParaContent();  print (PrintText) SC_44;  new_line; .L_Say40; .L_SayX40;
+         say__p=1;ParaContent();  print (PrintText) SC_49;  new_line; .L_Say40; .L_SayX40;
          ! phrase 71
          ! [71: end if]
          }
@@ -17489,7 +17539,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_741, 741);
       ! phrase 1
       ! [1: if the item built is nothing or the item built is not in limbo , say ~You can't combine [the noun] and [the second noun] into anything useful.~ instead]
-       if (((((MStack-->MstVO(20080,0)) == nothing))) || (((~~((I88_limbo == ContainerOf((MStack-->MstVO(20080,0))))))))) { say__p=1;ParaContent();  print (PrintText) SC_46; ParaContent();  print (the) noun; ParaContent();  print (PrintText) SC_47; ParaContent();  print (the) second; ParaContent();  print (PrintText) SC_48;  new_line; .L_Say48; .L_SayX48;  rtrue; }
+       if (((((MStack-->MstVO(20080,0)) == nothing))) || (((~~((I88_limbo == ContainerOf((MStack-->MstVO(20080,0))))))))) { say__p=1;ParaContent();  print (PrintText) SC_51; ParaContent();  print (the) noun; ParaContent();  print (PrintText) SC_52; ParaContent();  print (the) second; ParaContent();  print (PrintText) SC_53;  new_line; .L_Say48; .L_SayX48;  rtrue; }
    } ! Runs only when actor is the player
    else if (debug_rules > 1) DB_Rule(R_741, 741, true);
    rfalse;
@@ -17533,7 +17583,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_743, 743);
       ! phrase 1
       ! [1: say ~You now have [an item built].~]
-      say__p=1;ParaContent();  print (PrintText) SC_49; ParaContent();  print (a) (MStack-->MstVO(20080,0)); ParaContent();  print (PrintText) SC_44;  new_line; .L_Say49; .L_SayX49;
+      say__p=1;ParaContent();  print (PrintText) SC_54; ParaContent();  print (a) (MStack-->MstVO(20080,0)); ParaContent();  print (PrintText) SC_49;  new_line; .L_Say49; .L_SayX49;
    } ! Runs only when actor is the player
    else if (debug_rules > 1) DB_Rule(R_743, 743, true);
    rfalse;
@@ -22503,7 +22553,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 35 + 32;
+Constant MAX_ROUTE_LENGTH = 38 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -23990,7 +24040,7 @@ Array RulebookNames -->
 		if (R == R_744) { print "When play begins"; return; } ! 698, case 2
 		if (R == R_745) { print "Instead of taking the Shell"; return; } ! 699, case 2
 		if (R == R_746) { print "Instead of going to Gloomy Jungle when the player does not carry the Lit Torch"; return; } ! 700, case 2
-		if (R == R_747) { print "Instead of going to Water when the player does not carry the Fishbowl"; return; } ! 701, case 2
+		if (R == R_747) { print "Instead of going to Swag when the player does not carry the Fishbowl"; return; } ! 701, case 2
 		if (R == R_748) { print "Instead of attacking Calypso"; return; } ! 702, case 2
 		if (R == R_749) { print "Instead of asking Calypso for the Fishbowl"; return; } ! 703, case 2
 		if (R == R_750) { print "Instead of giving the Magic Conch to Calypso"; return; } ! 704, case 2
@@ -26290,11 +26340,11 @@ Array LIST_CONST_253 --> 0 9 2 (I95_scraps_of_wood) (I90_flammable_cloth) ;
    rfalse;
 ];
 [ text_routine_0;
-say__p=1;ParaContent();  print (PrintText) SC_50; 
-	if (~~((((I109_calypso == CarrierOf(I108_fishbowl)))))) jump L_Say50;
-		ParaContent();  print (PrintText) SC_51; 
+say__p=1;ParaContent();  print (PrintText) SC_55; 
+	if (~~((((I112_calypso == CarrierOf(I111_fishbowl)))))) jump L_Say50;
+		ParaContent();  print (PrintText) SC_56; 
 	.L_Say50; .L_SayX50;
-		ParaContent();  print (PrintText) SC_52; ParaContent(); @push self;  print (T58) GProperty(9, self=I109_calypso,p56_mood); @pull self; ParaContent();  print (PrintText) SC_44;  .L_Say51; .L_SayX51;
+		ParaContent();  print (PrintText) SC_57; ParaContent(); @push self;  print (T58) GProperty(9, self=I112_calypso,p56_mood); @pull self; ParaContent();  print (PrintText) SC_49;  .L_Say51; .L_SayX51;
     rtrue;
 ];
 
@@ -28182,57 +28232,62 @@ ArgumentTypeFailed(filename, line);
 Array ConstantListPointers --> 
 LIST_CONST_223 LIST_CONST_233 LIST_CONST_243 LIST_CONST_253  0 0;
 
-Constant SC_51 = "
+Constant SC_56 = "
 She is carrying a Fishbowl ";
-Constant SC_29 = " ";
-Constant SC_47 = " and ";
-Constant SC_43 = " here";
-Constant SC_48 = " into anything useful.";
-Constant SC_33 = " or ";
-Constant SC_38 = " you ";
-Constant SC_25 = "~Oooh thanks! This is such a pretty conch. It'll fit nicely in my collection. Here take this Fishbowl.~";
-Constant SC_34 = ", ";
-Constant SC_32 = ",";
-Constant SC_52 = ". Calypso looks ";
-Constant SC_44 = ".";
-Constant SC_21 = ": ";
-Constant SC_45 = ":";
-Constant SC_35 = "> ";
-Constant SC_14 = ">";
-Constant SC_31 = "?";
+Constant SC_34 = " ";
+Constant SC_52 = " and ";
+Constant SC_48 = " here";
+Constant SC_53 = " into anything useful.";
+Constant SC_38 = " or ";
+Constant SC_43 = " you ";
+Constant SC_30 = "~Oooh thanks! This is such a pretty conch. It'll fit nicely in my collection. Here take this Fishbowl.~";
+Constant SC_39 = ", ";
+Constant SC_37 = ",";
+Constant SC_57 = ". Calypso looks ";
+Constant SC_49 = ".";
+Constant SC_26 = ": ";
+Constant SC_50 = ":";
+Constant SC_40 = "> ";
+Constant SC_19 = ">";
+Constant SC_36 = "?";
 Constant SC_10 = "A bottle of rum, 80 proof, good for multiple things.";
 Constant SC_7 = "A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable. It looks like could become flammable if soaked in something...";
-Constant SC_13 = "A large glass Fishbowl. It might be able to be used as a breathing apparatus.";
-Constant SC_50 = "A spooky looking witch lady, she looks startled as if she hasn't seen another person in forever. She is carrying a large weathered rucksack. ";
+Constant SC_18 = "A large glass Fishbowl. It might be able to be used as a breathing apparatus.";
+Constant SC_12 = "A lot of trees. In a line. A Treeline.";
+Constant SC_55 = "A spooky looking witch lady, she looks startled as if she hasn't seen another person in forever. She is carrying a large weathered rucksack. ";
+Constant SC_14 = "Amazingly clear you can see through the waves as the barrel and crash up on the sand.";
 Constant SC_4 = "As good-looking as ever.";
-Constant SC_24 = "Calypso glares at you angrily, ~You should give me something first!~ she says.";
-Constant SC_37 = "In ";
-Constant SC_12 = "It's a brilliant blue conch shell, the way it shimmers makes it seem almost magical.";
-Constant SC_22 = "It's a dark and spooky jungle. Maybe you should bring some light.";
-Constant SC_23 = "It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet.";
-Constant SC_11 = "It's sand. It has a silky feel to it and it's a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell...";
+Constant SC_29 = "Calypso glares at you angrily, ~You should give me something first!~ she says.";
+Constant SC_42 = "In ";
+Constant SC_16 = "It's a brilliant blue conch shell, the way it shimmers makes it seem almost magical.";
+Constant SC_27 = "It's a dark and spooky jungle. Maybe you should bring some light.";
+Constant SC_28 = "It's a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet.";
+Constant SC_15 = "It's sand. It has a silky feel to it and it's a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell...";
 Constant SC_2 = "Jacob Sparks";
-Constant SC_39 = "On ";
+Constant SC_13 = "Large rocks, very boring. Unless you are into geology.";
+Constant SC_17 = "Not completed yet, nothing in here and volcano is noth and ruins are south. Nothing is in the ruins yet either.";
+Constant SC_44 = "On ";
 Constant SC_5 = "Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies";
 Constant SC_8 = "Once stocked full of rum and food and everything you could imagine. Now the ship is almost bare save for some miscellaneous things.";
 Constant SC_9 = "Originally part of the hull of the Scallywag, these pieces of wood may come in handy later.";
-Constant SC_18 = "QUIT";
-Constant SC_15 = "RESTART";
-Constant SC_16 = "RESTORE a saved game";
-Constant SC_27 = "She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears..";
+Constant SC_23 = "QUIT";
+Constant SC_20 = "RESTART";
+Constant SC_21 = "RESTORE a saved game";
+Constant SC_32 = "She reaches into her rucksack and pulls out a vial of liquid She drinks it and disappears..";
+Constant SC_11 = "The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.";
 Constant SC_6 = "The brilliant blue ocean, it looks so calm and tranquil.";
-Constant SC_19 = "UNDO the last command";
-Constant SC_30 = "Would you like to ";
-Constant SC_36 = "You ";
-Constant SC_28 = "You are tragically never found nor rescued. That's what you get for messing with witch ladies.";
-Constant SC_46 = "You can't combine ";
-Constant SC_49 = "You now have ";
-Constant SC_20 = "You wake up on the deck of your ship. Your head is throbbing, slowly you begin to remember what happened. The storm, the waves, the reef. You are lucky you managed to survive. Your crew on the other hand, was not so fortunate. Marooned on an unknown island, you should try to find a way back home.";
-Constant SC_26 = "You walk over towards the shell. As you get closer you notice that it's a lot larger then initially expected. You pull it out of the sand to get a closer look. It's a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.";
-Constant SC_41 = "also ";
-Constant SC_40 = "can ";
-Constant SC_42 = "see ";
-Constant SC_17 = "see some suggestions for AMUSING things to do";
+Constant SC_24 = "UNDO the last command";
+Constant SC_35 = "Would you like to ";
+Constant SC_41 = "You ";
+Constant SC_33 = "You are tragically never found nor rescued. That's what you get for messing with witch ladies.";
+Constant SC_51 = "You can't combine ";
+Constant SC_54 = "You now have ";
+Constant SC_25 = "You wake up on the deck of your ship. Your head is throbbing, slowly you begin to remember what happened. The storm, the waves, the reef. You are lucky you managed to survive. Your crew on the other hand, was not so fortunate. Marooned on an unknown island, you should try to find a way back home.";
+Constant SC_31 = "You walk over towards the shell. As you get closer you notice that it's a lot larger then initially expected. You pull it out of the sand to get a closer look. It's a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.";
+Constant SC_46 = "also ";
+Constant SC_45 = "can ";
+Constant SC_47 = "see ";
+Constant SC_22 = "see some suggestions for AMUSING things to do";
 Constant SC_3 = "the";
 
 #ifndef p0_specification; Constant p0_specification = 0; #endif;
