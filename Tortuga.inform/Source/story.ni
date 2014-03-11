@@ -116,7 +116,7 @@ The vines is an object in the jungle. The description is "Vines that were once o
 The Fishbowl is an object. It is carried by Calypso. The description is "A large glass Fishbowl. It might be able to be used as a breathing apparatus."
 The rucksack is an object. It is carried by Calypso. The description is "A large rucksack. It looks really old. I don't think she'll separate with this thing."
 
-The lava is scenery in the Volcano. "It's lava. It's red and it's extremely hot. You shouldn't touch it."
+The lava is scenery in the Volcano. The description is "It's lava. It's red and it's extremely hot. You shouldn't touch it."
 
 Calypso is a person in the Volcano. The description of Calypso is "A spooky looking witch lady, she looks startled as if she hasn't seen another person in forever. She is carrying a large weathered rucksack. [if the Fishbowl is carried by Calypso] 
 She is carrying a Fishbowl [end if]. Calypso looks [the mood of Calypso]."
@@ -139,7 +139,7 @@ Instead of giving the Magic Conch to Calypso:
 
 
 [The Ruins]
-The painting is scenery in the ruins. "As you go to look closer at the primitive sketch on the wall you see something that piques your interest. It looks like a map of the island. The only part you really care about is what looks to be a sketch of a boat and something that resembles a compass. However, these seem to be painted under the water?"
+The painting is scenery in the ruins. The description is "As you go to look closer at the primitive sketch on the wall you see something that piques your interest. It looks like a map of the island. The only part you really care about is what looks to be a sketch of a boat and something that resembles a compass. However, these seem to be painted under the water?"
 The chest is a container in the ruins. It is closed and openable. The description is "An old chest that looks extremly worn. It may have had a padlock at some time but now it's just sitting there."
 Instead of opening the chest:
 	say "For a small chest the lid is extremly heavy. As you finally manage to get it open you realize that it is empty. Save for a small piece of paper at the bottom."
@@ -158,10 +158,10 @@ The fish are scenery in the Ocean. The description is "A large school of silvery
 [The Underwater Cave]
 The Underwater Cave is a room. "You slide the piece of coral, widening the opening just enough for you to fit through. You swim through a small tunnel and pop up in a cave. The cave seems pretty large and is dimly lit by the eerie glow of large ghostly looking ship. On the ground next to the ship is a small little container."
 
-The Compass is an object. It is in the Underwater Cave. "A compass, seems to be oriented correctly. All you need is a ship and you should be able to get home in no time."
+The Compass is an object. It is in the Underwater Cave. The description is "A compass, seems to be oriented correctly. All you need is a ship and you should be able to get home in no time."
 Understand "container" as the Compass.
 [Cody helped me by telling me I could just call it a vehicle instead of an enterable supporter or something like that]
-The Flying Dutchman is a vehicle. It is in the Underwater Cave. "Could this be it? You've heard rumors of this ship. It's said to be the fastest ship in the universe and captained by the most feared pirate of all. Nobody has ever seen this ship and lived, but now it's all yours."
+The Flying Dutchman is a vehicle. It is in the Underwater Cave. The description is "Could this be it? You've heard rumors of this ship. It's said to be the fastest ship in the universe and captained by the most feared pirate of all. Nobody has ever seen this ship and lived, but now it's all yours."
 Understand "ship" as The Flying Dutchman.
 
 [I didn't like the standard as good looking as ever.]
