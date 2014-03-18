@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x96c7660" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1ba9720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x96c7660" />
-  <item nodeId="node-0x96c7660">
+  <activeNode nodeId="node-0x1be44b0" />
+  <item nodeId="node-0x1ba9720">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -22,20 +22,20 @@ You can see a Tattered Flag here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">NO</temporary>
+    <temporary score="18">NO</temporary>
     <children>
-      <child nodeId="node-0xce76ff0" />
-      <child nodeId="node-0xce76f10" />
-      <child nodeId="node-0xce76e30" />
-      <child nodeId="node-0xce76dc0" />
-      <child nodeId="node-0xce75700" />
-      <child nodeId="node-0xce754d0" />
-      <child nodeId="node-0xce75150" />
-      <child nodeId="node-0x96c7840" />
-      <child nodeId="node-0x96c77f0" />
+      <child nodeId="node-0x6c734c0" />
+      <child nodeId="node-0x6c733e0" />
+      <child nodeId="node-0x6c73300" />
+      <child nodeId="node-0x6c73290" />
+      <child nodeId="node-0x6c71bd0" />
+      <child nodeId="node-0x6c719a0" />
+      <child nodeId="node-0x6c71620" />
+      <child nodeId="node-0x1ba97e0" />
+      <child nodeId="node-0x1ba9790" />
     </children>
   </item>
-  <item nodeId="node-0x96c77f0">
+  <item nodeId="node-0x1ba9790">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Pirate Clothes
@@ -45,19 +45,19 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
   </item>
-  <item nodeId="node-0x96c7840">
+  <item nodeId="node-0x1ba97e0">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x96c7890" />
+      <child nodeId="node-0x1ba9830" />
     </children>
   </item>
-  <item nodeId="node-0x96c7890">
+  <item nodeId="node-0x1ba9830">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -68,30 +68,639 @@ You can see a Scraps of Wood and a Bottle of Rum here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xce75000" />
-      <child nodeId="node-0x96c7900" />
-      <child nodeId="node-0xce74430" />
-      <child nodeId="node-0xce73f60" />
-      <child nodeId="node-0xce73350" />
-      <child nodeId="node-0xce747b0" />
+      <child nodeId="node-0x6c714d0" />
+      <child nodeId="node-0x1ba9880" />
+      <child nodeId="node-0x6c70ba0" />
+      <child nodeId="node-0x6c706d0" />
+      <child nodeId="node-0x6c6fe10" />
+      <child nodeId="node-0x6c71150" />
     </children>
   </item>
-  <item nodeId="node-0xce747b0">
-    <command xml:space="preserve">take wood</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0x6c71150">
+    <command xml:space="preserve">combine rum with flag</command>
+    <result xml:space="preserve">(first taking the Bottle of Rum)
+You now have a Flammable Cloth.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c711c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c711c0">
+    <command xml:space="preserve">combine cloth with wood</command>
+    <result xml:space="preserve">(first taking the Scraps of Wood)
+You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71230" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71230">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c712a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c712a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71310" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71310">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71380" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ruins
+As you begin walking through the pitch black darkness of the jungle you can faintly see a light all the way down at the end. As you emerge from the light you glance around at what appears to be some kind of ancient temple. There is some kind of drawing on one end of the room and a chest on the other side.
+
+You can see a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c713f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c713f0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">For a small chest the lid is extremly heavy. As you finally manage to get it open you realize that it is empty. Save for a small piece of paper at the bottom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71460" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71460">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c6fe10">
+    <command xml:space="preserve">combine flag with rum</command>
+    <result xml:space="preserve">(first taking the Bottle of Rum)
+You now have a Flammable Cloth.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xce74820" />
-      <child nodeId="node-0x953cde0" />
+      <child nodeId="node-0x6c70120" />
+      <child nodeId="node-0x6c6fe80" />
     </children>
   </item>
-  <item nodeId="node-0x953cde0">
+  <item nodeId="node-0x6c6fe80">
+    <command xml:space="preserve">combine cloth with wood</command>
+    <result xml:space="preserve">(first taking the Scraps of Wood)
+You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6fef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6fef0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6ff60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6ff60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6ffd0" />
+      <child nodeId="node-0x6c5bc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c5bc20">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x767beb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x767beb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c4a740" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c4a740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+After a long hik to the top of the mountain you realize that it wasn&apos;t just any mountain. It&apos;s a live volcano. The crater is pretty sparce save for some lava and a crazy looking witch lady swimming through it.
+
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bda960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bda960">
+    <command xml:space="preserve">give calypso shell</command>
+    <result xml:space="preserve">&quot;Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba6ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba6ce0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0fb660" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0fb660">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc4420" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc4420">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x7675c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x7675c90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Ocean
+As you securely fasten the Fishbowl around your head as a makeshift scuba helmet you jump from the deck of The Scallywag into the ocean. The ocean is crystal clear with rays of sunlight dancing around on the bottom of the sea. You see a large bed of coral and schools of fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c852c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c852c0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Underwater Cave
+You slide the piece of coral, widening the opening just enough for you to fit through. You swim through a small tunnel and pop up in a cave. The cave seems pretty large and is dimly lit by the eerie glow of large ghostly looking ship. On the ground next to the ship is a small little container.
+
+You can see a Compass and a Flying Dutchman (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6caca90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6caca90">
+    <command xml:space="preserve">take compass</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be44b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be44b0">
+    <command xml:space="preserve">enter Dutchman</command>
+    <result xml:space="preserve">You get into the Flying Dutchman.
+
+You board the Flying Dutchman and steer it down a tunnel an out onto the open ocean. Using the compass you navigate back to your home port. Life is good.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 17 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c6ffd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70040" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70040">
+    <command xml:space="preserve">take vines</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c700b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c700b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Ruins
+As you begin walking through the pitch black darkness of the jungle you can faintly see a light all the way down at the end. As you emerge from the light you glance around at what appears to be some kind of ancient temple. There is some kind of drawing on one end of the room and a chest on the other side.
+
+An old chest that looks extremly worn. It may have had a padlock at some time but now it&apos;s just sitting there.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c70120">
+    <command xml:space="preserve">combine rum with cloth</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70190" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70190">
+    <command xml:space="preserve">combine cloth with wood</command>
+    <result xml:space="preserve">(first taking the Scraps of Wood)
+You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70200" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70200">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70270" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70270">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6f930" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6f930">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">It&apos;s a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6f9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6f9a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6fa10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6fa10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6fa80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6fa80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6faf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6faf0">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c702e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c702e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70350" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70350">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c703c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c703c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+After a long hik to the top of the mountain you realize that it wasn&apos;t just any mountain. It&apos;s a live volcano. The crater is pretty sparce save for some lava and a crazy looking witch lady swimming through it.
+
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70430" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70430">
+    <command xml:space="preserve">give calypso shell</command>
+    <result xml:space="preserve">&quot;Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c704a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c704a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Fishbowl
+  a Lit Torch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70510" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70510">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Jungle
+A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
+
+You can see a vines here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70580" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70580">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Beach
+The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c705f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c705f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70660" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70660">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Ocean
+As you securely fasten the Fishbowl around your head as a makeshift scuba helmet you jump from the deck of The Scallywag into the ocean. The ocean is crystal clear with rays of sunlight dancing around on the bottom of the sea. You see a large bed of coral and schools of fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c706d0">
+    <command xml:space="preserve">combine rum and flag</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70740" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70740">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">(first taking the Bottle of Rum)
 You now have a Flammable Cloth.
@@ -101,22 +710,23 @@ You now have a Flammable Cloth.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9539db0" />
+      <child nodeId="node-0x6c707b0" />
     </children>
   </item>
-  <item nodeId="node-0x9539db0">
+  <item nodeId="node-0x6c707b0">
     <command xml:space="preserve">combine cloth with wood</command>
-    <result xml:space="preserve">You now have a Lit Torch.
+    <result xml:space="preserve">(first taking the Scraps of Wood)
+You now have a Lit Torch.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xcecdd60" />
+      <child nodeId="node-0x6c70820" />
     </children>
   </item>
-  <item nodeId="node-0xcecdd60">
+  <item nodeId="node-0x6c70820">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -127,10 +737,310 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x959a9d0" />
+      <child nodeId="node-0x6c70890" />
     </children>
   </item>
-  <item nodeId="node-0x959a9d0">
+  <item nodeId="node-0x6c70890">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70900" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70900">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70970" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70970">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c709e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c709e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70a50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70ac0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70b30">
+    <command xml:space="preserve">x calypso</command>
+    <result xml:space="preserve">You see nothing special about Calypso.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c70ba0">
+    <command xml:space="preserve">take woof</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70c10">
+    <command xml:space="preserve">take wood</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70c80">
+    <command xml:space="preserve">combine flag with rum</command>
+    <result xml:space="preserve">(first taking the Bottle of Rum)
+You now have a Flammable Cloth.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70cf0">
+    <command xml:space="preserve">combine wood with clothg</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70d60">
+    <command xml:space="preserve">combine wood with cloth</command>
+    <result xml:space="preserve">You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70dd0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70e40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Beach
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70eb0">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70f20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Jungle
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c70f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c70f90">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71000" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71000">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano
+You can see Calypso here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c71070" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c71070">
+    <command xml:space="preserve">give shell to calypso</command>
+    <result xml:space="preserve">Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c710e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c710e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Lit Torch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0x1ba9880">
+    <command xml:space="preserve">take wood</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c6f540" />
+      <child nodeId="node-0x1ba98f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba98f0">
+    <command xml:space="preserve">combine rum with flag</command>
+    <result xml:space="preserve">(first taking the Bottle of Rum)
+You now have a Flammable Cloth.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba9960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba9960">
+    <command xml:space="preserve">combine cloth with wood</command>
+    <result xml:space="preserve">You now have a Lit Torch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba9a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba9a50">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Scallywag
+Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba9aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba9aa0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -141,10 +1051,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x95b6610" />
+      <child nodeId="node-0x1ba9af0" />
     </children>
   </item>
-  <item nodeId="node-0x95b6610">
+  <item nodeId="node-0x1ba9af0">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
 
@@ -153,10 +1063,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xce6a5f0" />
+      <child nodeId="node-0x1ba9b60" />
     </children>
   </item>
-  <item nodeId="node-0xce6a5f0">
+  <item nodeId="node-0x1ba9b60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -169,10 +1079,10 @@ You can see a vines here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x1b0a980" />
+      <child nodeId="node-0x1ba9bd0" />
     </children>
   </item>
-  <item nodeId="node-0x1b0a980">
+  <item nodeId="node-0x1ba9bd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Volcano
@@ -185,10 +1095,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xdca3a00" />
+      <child nodeId="node-0x6c6efd0" />
     </children>
   </item>
-  <item nodeId="node-0xdca3a00">
+  <item nodeId="node-0x6c6efd0">
     <command xml:space="preserve">give calypso shell</command>
     <result xml:space="preserve">&quot;Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.&quot;
 
@@ -197,10 +1107,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x95fb760" />
+      <child nodeId="node-0x1ba99f0" />
     </children>
   </item>
-  <item nodeId="node-0x95fb760">
+  <item nodeId="node-0x1ba99f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Jungle
@@ -213,10 +1123,10 @@ You can see a vines here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xcec0740" />
+      <child nodeId="node-0x6c6f040" />
     </children>
   </item>
-  <item nodeId="node-0xcec0740">
+  <item nodeId="node-0x6c6f040">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Beach
@@ -227,10 +1137,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x1bda8c0" />
+      <child nodeId="node-0x6c6f0b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bda8c0">
+  <item nodeId="node-0x6c6f0b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -241,10 +1151,10 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xceb5de0" />
+      <child nodeId="node-0x6c6f120" />
     </children>
   </item>
-  <item nodeId="node-0xceb5de0">
+  <item nodeId="node-0x6c6f120">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ocean
@@ -255,10 +1165,10 @@ As you securely fasten the Fishbowl around your head as a makeshift scuba helmet
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xceae9d0" />
+      <child nodeId="node-0x6c6f190" />
     </children>
   </item>
-  <item nodeId="node-0xceae9d0">
+  <item nodeId="node-0x6c6f190">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Underwater Cave
@@ -273,10 +1183,10 @@ Could this be it? You&apos;ve heard rumors of this ship. It&apos;s said to be th
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x96c2b70" />
+      <child nodeId="node-0x6c6f200" />
     </children>
   </item>
-  <item nodeId="node-0x96c2b70">
+  <item nodeId="node-0x6c6f200">
     <command xml:space="preserve">take compass</command>
     <result xml:space="preserve">Taken.
 
@@ -285,10 +1195,10 @@ Could this be it? You&apos;ve heard rumors of this ship. It&apos;s said to be th
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x953f6e0" />
+      <child nodeId="node-0x6c6f270" />
     </children>
   </item>
-  <item nodeId="node-0x953f6e0">
+  <item nodeId="node-0x6c6f270">
     <command xml:space="preserve">get in Flying Dutchman</command>
     <result xml:space="preserve">You get into the Flying Dutchman.
 
@@ -308,10 +1218,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xceceac0" />
+      <child nodeId="node-0x6c6ef10" />
     </children>
   </item>
-  <item nodeId="node-0xceceac0">
+  <item nodeId="node-0x6c6ef10">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Underwater Cave
 [Previous turn undone.]
@@ -321,10 +1231,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x9597400" />
+      <child nodeId="node-0x6c6ef60" />
     </children>
   </item>
-  <item nodeId="node-0x9597400">
+  <item nodeId="node-0x6c6ef60">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Compass
@@ -337,10 +1247,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xdca4140" />
+      <child nodeId="node-0x6c6f460" />
     </children>
   </item>
-  <item nodeId="node-0xdca4140">
+  <item nodeId="node-0x6c6f460">
     <command xml:space="preserve">drop compass</command>
     <result xml:space="preserve">Dropped.
 
@@ -349,10 +1259,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xdc9f0f0" />
+      <child nodeId="node-0x6c6f4d0" />
     </children>
   </item>
-  <item nodeId="node-0xdc9f0f0">
+  <item nodeId="node-0x6c6f4d0">
     <command xml:space="preserve">get in Flying Dutchman</command>
     <result xml:space="preserve">You get into the Flying Dutchman.
 
@@ -361,7 +1271,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0xce74820">
+  <item nodeId="node-0x6c6f540">
     <command xml:space="preserve">take rum</command>
     <result xml:space="preserve">Taken.
 
@@ -370,10 +1280,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74890" />
+      <child nodeId="node-0x6c6f5b0" />
     </children>
   </item>
-  <item nodeId="node-0xce74890">
+  <item nodeId="node-0x6c6f5b0">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">You now have a Flammable Cloth.
 
@@ -382,10 +1292,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74900" />
+      <child nodeId="node-0x6c6f620" />
     </children>
   </item>
-  <item nodeId="node-0xce74900">
+  <item nodeId="node-0x6c6f620">
     <command xml:space="preserve">combine cloth with wood</command>
     <result xml:space="preserve">You now have a Lit Torch.
 
@@ -394,10 +1304,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74970" />
+      <child nodeId="node-0x6c6f690" />
     </children>
   </item>
-  <item nodeId="node-0xce74970">
+  <item nodeId="node-0x6c6f690">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -408,10 +1318,10 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce749e0" />
+      <child nodeId="node-0x6c6f700" />
     </children>
   </item>
-  <item nodeId="node-0xce749e0">
+  <item nodeId="node-0x6c6f700">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -421,10 +1331,10 @@ Beach
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74a50" />
+      <child nodeId="node-0x6c6f770" />
     </children>
   </item>
-  <item nodeId="node-0xce74a50">
+  <item nodeId="node-0x6c6f770">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell.
 
@@ -433,10 +1343,10 @@ Beach
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74ac0" />
+      <child nodeId="node-0x6c6f7e0" />
     </children>
   </item>
-  <item nodeId="node-0xce74ac0">
+  <item nodeId="node-0x6c6f7e0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Magic Conch
@@ -447,10 +1357,10 @@ Beach
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74b30" />
+      <child nodeId="node-0x6c6f850" />
     </children>
   </item>
-  <item nodeId="node-0xce74b30">
+  <item nodeId="node-0x6c6f850">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -460,10 +1370,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74ba0" />
+      <child nodeId="node-0x6c6f8c0" />
     </children>
   </item>
-  <item nodeId="node-0xce74ba0">
+  <item nodeId="node-0x6c6f8c0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -472,10 +1382,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74c10" />
+      <child nodeId="node-0x6c6f2e0" />
     </children>
   </item>
-  <item nodeId="node-0xce74c10">
+  <item nodeId="node-0x6c6f2e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -484,10 +1394,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74c80" />
+      <child nodeId="node-0x6c6f350" />
     </children>
   </item>
-  <item nodeId="node-0xce74c80">
+  <item nodeId="node-0x6c6f350">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Volcano
@@ -498,10 +1408,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74cf0" />
+      <child nodeId="node-0x6c6f3c0" />
     </children>
   </item>
-  <item nodeId="node-0xce74cf0">
+  <item nodeId="node-0x6c6f3c0">
     <command xml:space="preserve">x calypso</command>
     <result xml:space="preserve">A spooky looking witch lady, she looks startled as if she hasn&apos;t seen another person in forever. She is carrying a large weathered rucksack.  She is carrying a Fishbowl . Calypso looks angry.
 
@@ -510,10 +1420,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74d60" />
+      <child nodeId="node-0x6c6fb70" />
     </children>
   </item>
-  <item nodeId="node-0xce74d60">
+  <item nodeId="node-0x6c6fb70">
     <command xml:space="preserve">take fishbowl</command>
     <result xml:space="preserve">That seems to belong to Calypso.
 
@@ -522,10 +1432,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74dd0" />
+      <child nodeId="node-0x6c6fbe0" />
     </children>
   </item>
-  <item nodeId="node-0xce74dd0">
+  <item nodeId="node-0x6c6fbe0">
     <command xml:space="preserve">ask calypso for fishbowl</command>
     <result xml:space="preserve">Calypso glares at you angrily, &quot;You should give me something first!&quot; she says.
 
@@ -534,20 +1444,20 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74e40" />
+      <child nodeId="node-0x6c6fc50" />
     </children>
   </item>
-  <item nodeId="node-0xce74e40">
+  <item nodeId="node-0x6c6fc50">
     <command xml:space="preserve">give magic conch to calypso</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74eb0" />
+      <child nodeId="node-0x6c6fcc0" />
     </children>
   </item>
-  <item nodeId="node-0xce74eb0">
+  <item nodeId="node-0x6c6fcc0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -556,10 +1466,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74f20" />
+      <child nodeId="node-0x6c6fd30" />
     </children>
   </item>
-  <item nodeId="node-0xce74f20">
+  <item nodeId="node-0x6c6fd30">
     <command xml:space="preserve">x calypso</command>
     <result xml:space="preserve">A spooky looking witch lady, she looks startled as if she hasn&apos;t seen another person in forever. She is carrying a large weathered rucksack. . Calypso looks happy.
 
@@ -568,10 +1478,10 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce74f90" />
+      <child nodeId="node-0x6c6fda0" />
     </children>
   </item>
-  <item nodeId="node-0xce74f90">
+  <item nodeId="node-0x6c6fda0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Fishbowl
@@ -582,754 +1492,7 @@ You can see Calypso here.
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
   </item>
-  <item nodeId="node-0xce73350">
-    <command xml:space="preserve">combine flag with rum</command>
-    <result xml:space="preserve">(first taking the Bottle of Rum)
-You now have a Flammable Cloth.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce735f0" />
-      <child nodeId="node-0x96c7a50" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7a50">
-    <command xml:space="preserve">combine cloth with wood</command>
-    <result xml:space="preserve">(first taking the Scraps of Wood)
-You now have a Lit Torch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0xce733c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce733c0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73430" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73430">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0xce734a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce734a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
-
-You can see a vines here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73510" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73510">
-    <command xml:space="preserve">take vines</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73580" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73580">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Ruins
-As you begin walking through the pitch black darkness of the jungle you can faintly see a light all the way down at the end. As you emerge from the light you glance around at what appears to be some kind of ancient temple. There is some kind of drawing on one end of the room and a chest on the other side.
-
-An old chest that looks extremly worn. It may have had a padlock at some time but now it&apos;s just sitting there.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-  </item>
-  <item nodeId="node-0xce735f0">
-    <command xml:space="preserve">combine rum with cloth</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73290" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73290">
-    <command xml:space="preserve">combine cloth with wood</command>
-    <result xml:space="preserve">(first taking the Scraps of Wood)
-You now have a Lit Torch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce732e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce732e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce737e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce737e0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73850" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73850">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">It&apos;s a deep ocean, looks great to explore, if only you had some kind of make-shift scuba helmet.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce738c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce738c0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73930" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73930">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
-
-You can see a vines here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce739a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce739a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Beach
-The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73a10" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73a10">
-    <command xml:space="preserve">take shell</command>
-    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73a80" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73a80">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
-
-You can see a vines here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73af0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73af0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73b60" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73b60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano
-After a long hik to the top of the mountain you realize that it wasn&apos;t just any mountain. It&apos;s a live volcano. The crater is pretty sparce save for some lava and a crazy looking witch lady swimming through it.
-
-You can see Calypso here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73bd0">
-    <command xml:space="preserve">give calypso shell</command>
-    <result xml:space="preserve">&quot;Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73c40" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73c40">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a Fishbowl
-  a Lit Torch
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73660" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73660">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Jungle
-A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
-
-You can see a vines here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce736d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce736d0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Beach
-The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73740" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73740">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73ef0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73ef0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Ocean
-As you securely fasten the Fishbowl around your head as a makeshift scuba helmet you jump from the deck of The Scallywag into the ocean. The ocean is crystal clear with rays of sunlight dancing around on the bottom of the sea. You see a large bed of coral and schools of fish.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-  </item>
-  <item nodeId="node-0xce73f60">
-    <command xml:space="preserve">combine rum and flag</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73fd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73fd0">
-    <command xml:space="preserve">combine rum with flag</command>
-    <result xml:space="preserve">(first taking the Bottle of Rum)
-You now have a Flammable Cloth.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74040" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74040">
-    <command xml:space="preserve">combine cloth with wood</command>
-    <result xml:space="preserve">(first taking the Scraps of Wood)
-You now have a Lit Torch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce740b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce740b0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74120" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74120">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74190" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74190">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74200" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74200">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74270" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74270">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Beach
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce742e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce742e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74350" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74350">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano
-You can see Calypso here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-    <children>
-      <child nodeId="node-0xce743c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce743c0">
-    <command xml:space="preserve">x calypso</command>
-    <result xml:space="preserve">You see nothing special about Calypso.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="22">YES</temporary>
-  </item>
-  <item nodeId="node-0xce74430">
-    <command xml:space="preserve">take woof</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce744a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce744a0">
-    <command xml:space="preserve">take wood</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74510" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74510">
-    <command xml:space="preserve">combine flag with rum</command>
-    <result xml:space="preserve">(first taking the Bottle of Rum)
-You now have a Flammable Cloth.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74580" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74580">
-    <command xml:space="preserve">combine wood with clothg</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce745f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce745f0">
-    <command xml:space="preserve">combine wood with cloth</command>
-    <result xml:space="preserve">You now have a Lit Torch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73cb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73cb0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73d20" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73d20">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73d90" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73d90">
-    <command xml:space="preserve">take shell</command>
-    <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73e00" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73e00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce73e70" />
-    </children>
-  </item>
-  <item nodeId="node-0xce73e70">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74660" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74660">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano
-You can see Calypso here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce746d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xce746d0">
-    <command xml:space="preserve">give shell to calypso</command>
-    <result xml:space="preserve">Oooh thanks! This is such a pretty conch. It&apos;ll fit nicely in my collection. Here take this Fishbowl.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="51">YES</temporary>
-    <children>
-      <child nodeId="node-0xce74740" />
-    </children>
-  </item>
-  <item nodeId="node-0xce74740">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a Lit Torch
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-  </item>
-  <item nodeId="node-0x96c7900">
-    <command xml:space="preserve">combine rum with flag</command>
-    <result xml:space="preserve">(first taking the Bottle of Rum)
-You now have a Flammable Cloth.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7970" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7970">
-    <command xml:space="preserve">combine cloth with wood</command>
-    <result xml:space="preserve">(first taking the Scraps of Wood)
-You now have a Lit Torch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c79c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c79c0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Scallywag
-Once a mighty ship, the best in the world, now lay in pieces on this mysterious beach. As you glance west you can see the deep blue sea, and to the east you can see a beach. The beach that you seem to be marooned on. Maybe you should look belowdecks for some supplies
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7ab0" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7ab0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Beach
-The beach is actually more of a cove. It bears a slight remblence to Makapuu the waves break. The main features of this beach seem to be the sand, the water and the large rocks randomly dotting the sand. Further East, you can see the treeline of what seems to be a massive jungle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7b00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Jungle
-A jungle, packed with tons of trees. A path seems to be laid out through the middle of it. As you follow along the path it come to a split. Going north seems to lead toward a volcano and going south seems to lead into an even darker section of forest.
-
-You can see a vines here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7b50">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Ruins
-As you begin walking through the pitch black darkness of the jungle you can faintly see a light all the way down at the end. As you emerge from the light you glance around at what appears to be some kind of ancient temple. There is some kind of drawing on one end of the room and a chest on the other side.
-
-You can see a chest (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7bc0">
-    <command xml:space="preserve">open chest</command>
-    <result xml:space="preserve">For a small chest the lid is extremly heavy. As you finally manage to get it open you realize that it is empty. Save for a small piece of paper at the bottom.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x96c7c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x96c7c30">
-    <command xml:space="preserve">take paper</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="20">YES</temporary>
-  </item>
-  <item nodeId="node-0xce75000">
+  <item nodeId="node-0x6c714d0">
     <command xml:space="preserve">take rum</command>
     <result xml:space="preserve">Taken.
 
@@ -1338,10 +1501,10 @@ You can see a chest (closed) here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xce75070" />
+      <child nodeId="node-0x6c71540" />
     </children>
   </item>
-  <item nodeId="node-0xce75070">
+  <item nodeId="node-0x6c71540">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">You now have a Flammable Cloth.
 
@@ -1350,10 +1513,10 @@ You can see a chest (closed) here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xce750e0" />
+      <child nodeId="node-0x6c715b0" />
     </children>
   </item>
-  <item nodeId="node-0xce750e0">
+  <item nodeId="node-0x6c715b0">
     <command xml:space="preserve">combine cloth with wood</command>
     <result xml:space="preserve">(first taking the Scraps of Wood)
 You now have a Torch.
@@ -1363,7 +1526,7 @@ You now have a Torch.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0xce75150">
+  <item nodeId="node-0x6c71620">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ocean
@@ -1373,11 +1536,11 @@ Ocean
     <changed>YES</changed>
     <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0xce75230" />
-      <child nodeId="node-0xce751c0" />
+      <child nodeId="node-0x6c71700" />
+      <child nodeId="node-0x6c71690" />
     </children>
   </item>
-  <item nodeId="node-0xce751c0">
+  <item nodeId="node-0x6c71690">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1386,7 +1549,7 @@ Ocean
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
   </item>
-  <item nodeId="node-0xce75230">
+  <item nodeId="node-0x6c71700">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -1396,10 +1559,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce752a0" />
+      <child nodeId="node-0x6c71770" />
     </children>
   </item>
-  <item nodeId="node-0xce752a0">
+  <item nodeId="node-0x6c71770">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1408,10 +1571,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce75310" />
+      <child nodeId="node-0x6c717e0" />
     </children>
   </item>
-  <item nodeId="node-0xce75310">
+  <item nodeId="node-0x6c717e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1420,10 +1583,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce75380" />
+      <child nodeId="node-0x6c71850" />
     </children>
   </item>
-  <item nodeId="node-0xce75380">
+  <item nodeId="node-0x6c71850">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1432,10 +1595,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce753f0" />
+      <child nodeId="node-0x6c718c0" />
     </children>
   </item>
-  <item nodeId="node-0xce753f0">
+  <item nodeId="node-0x6c718c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1444,10 +1607,10 @@ Beach
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce75460" />
+      <child nodeId="node-0x6c71930" />
     </children>
   </item>
-  <item nodeId="node-0xce75460">
+  <item nodeId="node-0x6c71930">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1456,7 +1619,7 @@ Beach
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0xce754d0">
+  <item nodeId="node-0x6c719a0">
     <command xml:space="preserve">x flag</command>
     <result xml:space="preserve">A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable.
 
@@ -1465,11 +1628,11 @@ Beach
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xce75620" />
-      <child nodeId="node-0xce75540" />
+      <child nodeId="node-0x6c71af0" />
+      <child nodeId="node-0x6c71a10" />
     </children>
   </item>
-  <item nodeId="node-0xce75540">
+  <item nodeId="node-0x6c71a10">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
@@ -1478,10 +1641,10 @@ Beach
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xce755b0" />
+      <child nodeId="node-0x6c71a80" />
     </children>
   </item>
-  <item nodeId="node-0xce755b0">
+  <item nodeId="node-0x6c71a80">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Tattered Flag
@@ -1491,7 +1654,7 @@ Beach
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0xce75620">
+  <item nodeId="node-0x6c71af0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -1504,10 +1667,10 @@ You can see a Scraps of Wood here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0xce75690" />
+      <child nodeId="node-0x6c71b60" />
     </children>
   </item>
-  <item nodeId="node-0xce75690">
+  <item nodeId="node-0x6c71b60">
     <command xml:space="preserve">x wood</command>
     <result xml:space="preserve">Originally part of the hull of the Scallywag, these pieces of wood may come in handy later.
 
@@ -1516,7 +1679,7 @@ You can see a Scraps of Wood here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
   </item>
-  <item nodeId="node-0xce75700">
+  <item nodeId="node-0x6c71bd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -1527,13 +1690,13 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>NO</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xce76ce0" />
-      <child nodeId="node-0xce76ab0" />
-      <child nodeId="node-0xce759a0" />
-      <child nodeId="node-0xce75770" />
+      <child nodeId="node-0x6c731b0" />
+      <child nodeId="node-0x6c72f80" />
+      <child nodeId="node-0x6c71e70" />
+      <child nodeId="node-0x6c71c40" />
     </children>
   </item>
-  <item nodeId="node-0xce75770">
+  <item nodeId="node-0x6c71c40">
     <command xml:space="preserve">x sanf</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1542,10 +1705,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0xce757e0" />
+      <child nodeId="node-0x6c71cb0" />
     </children>
   </item>
-  <item nodeId="node-0xce757e0">
+  <item nodeId="node-0x6c71cb0">
     <command xml:space="preserve">x sand</command>
     <result xml:space="preserve">It&apos;s sand. It has a silky feel to it and it&apos;s a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell...
 
@@ -1554,10 +1717,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0xce75850" />
+      <child nodeId="node-0x6c71d20" />
     </children>
   </item>
-  <item nodeId="node-0xce75850">
+  <item nodeId="node-0x6c71d20">
     <command xml:space="preserve">x shell</command>
     <result xml:space="preserve">It&apos;s a brilliant blue conch shell, the way it shimmers makes it seem almost magical.
 
@@ -1566,10 +1729,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0xce758c0" />
+      <child nodeId="node-0x6c71d90" />
     </children>
   </item>
-  <item nodeId="node-0xce758c0">
+  <item nodeId="node-0x6c71d90">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell. Sensing it may be valuable later you stash it away safely.
 
@@ -1578,10 +1741,10 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0xce75930" />
+      <child nodeId="node-0x6c71e00" />
     </children>
   </item>
-  <item nodeId="node-0xce75930">
+  <item nodeId="node-0x6c71e00">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Magic Conch
@@ -1591,7 +1754,7 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>YES</changed>
     <temporary score="56">YES</temporary>
   </item>
-  <item nodeId="node-0xce759a0">
+  <item nodeId="node-0x6c71e70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -1600,11 +1763,11 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>NO</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xce75cb0" />
-      <child nodeId="node-0xce75a10" />
+      <child nodeId="node-0x6c72180" />
+      <child nodeId="node-0x6c71ee0" />
     </children>
   </item>
-  <item nodeId="node-0xce75a10">
+  <item nodeId="node-0x6c71ee0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1613,11 +1776,11 @@ The beach is actually more of a cove. It bears a slight remblence to Makapuu the
     <changed>NO</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xce75b60" />
-      <child nodeId="node-0xce75a80" />
+      <child nodeId="node-0x6c72030" />
+      <child nodeId="node-0x6c71f50" />
     </children>
   </item>
-  <item nodeId="node-0xce75a80">
+  <item nodeId="node-0x6c71f50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -1630,10 +1793,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xce75af0" />
+      <child nodeId="node-0x6c71fc0" />
     </children>
   </item>
-  <item nodeId="node-0xce75af0">
+  <item nodeId="node-0x6c71fc0">
     <command xml:space="preserve">x flag</command>
     <result xml:space="preserve">A flag that once struck fear into everyone who sailed the seas, now all crumpled torn, is barely respectable. It looks like could become flammable if soaked in something...
 
@@ -1642,7 +1805,7 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="69">YES</temporary>
   </item>
-  <item nodeId="node-0xce75b60">
+  <item nodeId="node-0x6c72030">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -1651,10 +1814,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce75bd0" />
+      <child nodeId="node-0x6c720a0" />
     </children>
   </item>
-  <item nodeId="node-0xce75bd0">
+  <item nodeId="node-0x6c720a0">
     <command xml:space="preserve">x shell</command>
     <result xml:space="preserve">You see nothing special about the Shell.
 
@@ -1663,10 +1826,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xce75c40" />
+      <child nodeId="node-0x6c72110" />
     </children>
   </item>
-  <item nodeId="node-0xce75c40">
+  <item nodeId="node-0x6c72110">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You walk over towards the shell. As you get closer you notice that it&apos;s a lot larger then initially expected. You pull it out of the sand to get a closer look. It&apos;s a brilliant blue conch shell.
 
@@ -1675,7 +1838,7 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0xce75cb0">
+  <item nodeId="node-0x6c72180">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -1684,10 +1847,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75d20" />
+      <child nodeId="node-0x6c721f0" />
     </children>
   </item>
-  <item nodeId="node-0xce75d20">
+  <item nodeId="node-0x6c721f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky jungle. Maybe you should bring some light.
 
@@ -1696,11 +1859,11 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75fc0" />
-      <child nodeId="node-0xce75d90" />
+      <child nodeId="node-0x6c72490" />
+      <child nodeId="node-0x6c72260" />
     </children>
   </item>
-  <item nodeId="node-0xce75d90">
+  <item nodeId="node-0x6c72260">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -1713,10 +1876,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75e00" />
+      <child nodeId="node-0x6c722d0" />
     </children>
   </item>
-  <item nodeId="node-0xce75e00">
+  <item nodeId="node-0x6c722d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ocean
@@ -1726,10 +1889,10 @@ Ocean
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75e70" />
+      <child nodeId="node-0x6c72340" />
     </children>
   </item>
-  <item nodeId="node-0xce75e70">
+  <item nodeId="node-0x6c72340">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Underwater Cave
@@ -1739,10 +1902,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75ee0" />
+      <child nodeId="node-0x6c723b0" />
     </children>
   </item>
-  <item nodeId="node-0xce75ee0">
+  <item nodeId="node-0x6c723b0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1751,10 +1914,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xce75f50" />
+      <child nodeId="node-0x6c72420" />
     </children>
   </item>
-  <item nodeId="node-0xce75f50">
+  <item nodeId="node-0x6c72420">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1763,7 +1926,7 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0xce75fc0">
+  <item nodeId="node-0x6c72490">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1772,10 +1935,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76030" />
+      <child nodeId="node-0x6c72500" />
     </children>
   </item>
-  <item nodeId="node-0xce76030">
+  <item nodeId="node-0x6c72500">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1784,10 +1947,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce760a0" />
+      <child nodeId="node-0x6c72570" />
     </children>
   </item>
-  <item nodeId="node-0xce760a0">
+  <item nodeId="node-0x6c72570">
     <command xml:space="preserve">ee</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1796,10 +1959,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76110" />
+      <child nodeId="node-0x6c725e0" />
     </children>
   </item>
-  <item nodeId="node-0xce76110">
+  <item nodeId="node-0x6c725e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1808,10 +1971,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76180" />
+      <child nodeId="node-0x6c72650" />
     </children>
   </item>
-  <item nodeId="node-0xce76180">
+  <item nodeId="node-0x6c72650">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1820,10 +1983,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce761f0" />
+      <child nodeId="node-0x6c726c0" />
     </children>
   </item>
-  <item nodeId="node-0xce761f0">
+  <item nodeId="node-0x6c726c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1832,10 +1995,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76260" />
+      <child nodeId="node-0x6c72730" />
     </children>
   </item>
-  <item nodeId="node-0xce76260">
+  <item nodeId="node-0x6c72730">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1844,10 +2007,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce762d0" />
+      <child nodeId="node-0x6c727a0" />
     </children>
   </item>
-  <item nodeId="node-0xce762d0">
+  <item nodeId="node-0x6c727a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">It&apos;s a dark and spooky forest. Maybe you should bring some light.
 
@@ -1856,10 +2019,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76340" />
+      <child nodeId="node-0x6c72810" />
     </children>
   </item>
-  <item nodeId="node-0xce76340">
+  <item nodeId="node-0x6c72810">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -1868,10 +2031,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce763b0" />
+      <child nodeId="node-0x6c72880" />
     </children>
   </item>
-  <item nodeId="node-0xce763b0">
+  <item nodeId="node-0x6c72880">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -1880,10 +2043,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76420" />
+      <child nodeId="node-0x6c728f0" />
     </children>
   </item>
-  <item nodeId="node-0xce76420">
+  <item nodeId="node-0x6c728f0">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -1892,10 +2055,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76490" />
+      <child nodeId="node-0x6c72960" />
     </children>
   </item>
-  <item nodeId="node-0xce76490">
+  <item nodeId="node-0x6c72960">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You see nothing unexpected in that direction.
 
@@ -1904,10 +2067,10 @@ Underwater Cave
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76500" />
+      <child nodeId="node-0x6c729d0" />
     </children>
   </item>
-  <item nodeId="node-0xce76500">
+  <item nodeId="node-0x6c729d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -1920,10 +2083,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76570" />
+      <child nodeId="node-0x6c72a40" />
     </children>
   </item>
-  <item nodeId="node-0xce76570">
+  <item nodeId="node-0x6c72a40">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">Taken.
 
@@ -1932,10 +2095,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce765e0" />
+      <child nodeId="node-0x6c72ab0" />
     </children>
   </item>
-  <item nodeId="node-0xce765e0">
+  <item nodeId="node-0x6c72ab0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -1948,10 +2111,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76650" />
+      <child nodeId="node-0x6c72b20" />
     </children>
   </item>
-  <item nodeId="node-0xce76650">
+  <item nodeId="node-0x6c72b20">
     <command xml:space="preserve">take wood</command>
     <result xml:space="preserve">Taken.
 
@@ -1960,10 +2123,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce766c0" />
+      <child nodeId="node-0x6c72b90" />
     </children>
   </item>
-  <item nodeId="node-0xce766c0">
+  <item nodeId="node-0x6c72b90">
     <command xml:space="preserve">take rum</command>
     <result xml:space="preserve">Taken.
 
@@ -1972,10 +2135,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76730" />
+      <child nodeId="node-0x6c72c00" />
     </children>
   </item>
-  <item nodeId="node-0xce76730">
+  <item nodeId="node-0x6c72c00">
     <command xml:space="preserve">combine rum with flag</command>
     <result xml:space="preserve">You now have a Flammable Cloth.
 
@@ -1984,10 +2147,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce767a0" />
+      <child nodeId="node-0x6c72c70" />
     </children>
   </item>
-  <item nodeId="node-0xce767a0">
+  <item nodeId="node-0x6c72c70">
     <command xml:space="preserve">combing cloth with wood</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1996,10 +2159,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76810" />
+      <child nodeId="node-0x6c72ce0" />
     </children>
   </item>
-  <item nodeId="node-0xce76810">
+  <item nodeId="node-0x6c72ce0">
     <command xml:space="preserve">combine scraps with cloth</command>
     <result xml:space="preserve">You now have a Lit Torch.
 
@@ -2008,10 +2171,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76880" />
+      <child nodeId="node-0x6c72d50" />
     </children>
   </item>
-  <item nodeId="node-0xce76880">
+  <item nodeId="node-0x6c72d50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2020,10 +2183,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce768f0" />
+      <child nodeId="node-0x6c72dc0" />
     </children>
   </item>
-  <item nodeId="node-0xce768f0">
+  <item nodeId="node-0x6c72dc0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -2034,10 +2197,10 @@ Once a mighty ship, the best in the world, now lay in pieces on this mysterious 
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76960" />
+      <child nodeId="node-0x6c72e30" />
     </children>
   </item>
-  <item nodeId="node-0xce76960">
+  <item nodeId="node-0x6c72e30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Beach
@@ -2047,10 +2210,10 @@ Beach
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce769d0" />
+      <child nodeId="node-0x6c72ea0" />
     </children>
   </item>
-  <item nodeId="node-0xce769d0">
+  <item nodeId="node-0x6c72ea0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Jungle
@@ -2060,10 +2223,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
     <children>
-      <child nodeId="node-0xce76a40" />
+      <child nodeId="node-0x6c72f10" />
     </children>
   </item>
-  <item nodeId="node-0xce76a40">
+  <item nodeId="node-0x6c72f10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2072,7 +2235,7 @@ Jungle
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
   </item>
-  <item nodeId="node-0xce76ab0">
+  <item nodeId="node-0x6c72f80">
     <command xml:space="preserve">x sand</command>
     <result xml:space="preserve">It&apos;s sand. It has a silky feel to it and it&apos;s a pale yellow color. As you look left you notice something partially covered by the sand. It looks like part of a shell..
 
@@ -2081,10 +2244,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0xce76b20" />
+      <child nodeId="node-0x6c72ff0" />
     </children>
   </item>
-  <item nodeId="node-0xce76b20">
+  <item nodeId="node-0x6c72ff0">
     <command xml:space="preserve">x shell</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2093,10 +2256,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0xce76b90" />
+      <child nodeId="node-0x6c73060" />
     </children>
   </item>
-  <item nodeId="node-0xce76b90">
+  <item nodeId="node-0x6c73060">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2105,10 +2268,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0xce76c00" />
+      <child nodeId="node-0x6c730d0" />
     </children>
   </item>
-  <item nodeId="node-0xce76c00">
+  <item nodeId="node-0x6c730d0">
     <command xml:space="preserve">take conch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2117,10 +2280,10 @@ Jungle
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0xce76c70" />
+      <child nodeId="node-0x6c73140" />
     </children>
   </item>
-  <item nodeId="node-0xce76c70">
+  <item nodeId="node-0x6c73140">
     <command xml:space="preserve">take conch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2129,7 +2292,7 @@ Jungle
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0xce76ce0">
+  <item nodeId="node-0x6c731b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Scallywag
@@ -2140,10 +2303,10 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0xce76d50" />
+      <child nodeId="node-0x6c73220" />
     </children>
   </item>
-  <item nodeId="node-0xce76d50">
+  <item nodeId="node-0x6c73220">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2152,7 +2315,7 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0xce76dc0">
+  <item nodeId="node-0x6c73290">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As there are no mirros on this island you have no idea how you look. But knowing you, you probably look amazing.
 
@@ -2161,7 +2324,7 @@ Me mighty ship, once the best in the world, now lay in pieces on this mysterious
     <changed>NO</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0xce76e30">
+  <item nodeId="node-0x6c73300">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -2171,10 +2334,10 @@ Cargo Hold
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0xce76ea0" />
+      <child nodeId="node-0x6c73370" />
     </children>
   </item>
-  <item nodeId="node-0xce76ea0">
+  <item nodeId="node-0x6c73370">
     <command xml:space="preserve">penis</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2183,7 +2346,7 @@ Cargo Hold
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0xce76f10">
+  <item nodeId="node-0x6c733e0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Cargo Hold
@@ -2196,10 +2359,10 @@ You can see a Scraps of Wood and a Bottle of Rum here.
     <changed>NO</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0xce76f80" />
+      <child nodeId="node-0x6c73450" />
     </children>
   </item>
-  <item nodeId="node-0xce76f80">
+  <item nodeId="node-0x6c73450">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Scallywag
@@ -2212,7 +2375,7 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0xce76ff0">
+  <item nodeId="node-0x6c734c0">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -2221,10 +2384,10 @@ You can see a Tattered Flag here.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0xce77060" />
+      <child nodeId="node-0x6c73530" />
     </children>
   </item>
-  <item nodeId="node-0xce77060">
+  <item nodeId="node-0x6c73530">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
